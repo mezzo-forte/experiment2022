@@ -1,0 +1,21 @@
+{
+  "Subject": "pUpZZYTgej",
+  "Country": "Afghanistan",
+  "Land_income_tier": "high",
+  "Subject_number_tier": 5,
+  "Group_number_for_model": 1,
+  "Group": "high1",
+  "Endowment": 700,
+  "Model": "UBI",
+  "Active_part": 1,
+  "Constitution": "Unanimity",
+  "Taxation_system": "Income",
+  "Tasks": {
+    "0": [
+      "Nowork"
+    ],
+    "1": [
+      "Nowork"
+    ]
+  }
+}

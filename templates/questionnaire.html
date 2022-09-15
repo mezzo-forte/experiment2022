@@ -1,0 +1,879 @@
+{% extends "base.html" %}
+{% block title %}Questionnaire {% endblock %}
+{% block content %}
+
+       <div class="container box">
+
+        <p style="color:goldenrod"><b>
+        Congratulations! You've reached the final step!
+    </b>
+    </p>
+    <br>
+        <p>We have a few more questions that we would like to ask you in order to enhance our analysis.</p>
+        
+        <p>(This survey is <b>anonymous</b> and confidential and the information will be used only for experimental analysis. It will not be used for any other purpose nor will it be given to third parties.)</p>
+        
+      <br>  
+        <form method='POST'>
+          <span><b>1. Have you ever heard about the concept of 'UBI (Universal Basic Income)' before?</b></span>
+    
+          <div class="form-check">
+              <input class="form-check-input" type="radio" name="Q1" value="1">
+              <label class="form-check-label" for="1">
+                Yes
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Q1" value="2">
+              <label class="form-check-label" for="2">
+                No
+              </label>
+            </div>
+      <br>
+      
+          <span><b>2. Do you support the idea of Universal Basic Income?</b></span>
+        
+          <div class="form-check">
+              <input class="form-check-input" type="radio" name="Q2" value="1">
+              <label class="form-check-label" for="1">
+                Totally support
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Q2" value="2">
+              <label class="form-check-label" for="2">
+                Support, in general
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Q2" value="3">
+              <label class="form-check-label" for="3">
+                More like support
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Q2" value="4">
+              <label class="form-check-label" for="4">
+                More like against
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Q2" value="5">
+              <label class="form-check-label" for="5">
+                Against, in general
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Q2" value="6">
+              <label class="form-check-label" for="6">
+                Totally against
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Q2" value="7">
+              <label class="form-check-label" for="7">
+                I don't know
+              </label>
+            </div>
+      <br>
+
+      <span><b>3. Have you ever heard about the concept of 'Wage Subsidy' before?</b></span>
+    
+          <div class="form-check">
+              <input class="form-check-input" type="radio" name="Q3" value="1">
+              <label class="form-check-label" for="1">
+                Yes
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Q3" value="2">
+              <label class="form-check-label" for="2">
+                No
+              </label>
+            </div>
+      <br>
+
+      <span><b>4. Do you support the idea of Wage Subsidies?</b></span>
+        
+      <div class="form-check">
+          <input class="form-check-input" type="radio" name="Q4" value="1">
+          <label class="form-check-label" for="1">
+            Totally support
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="Q4" value="2">
+          <label class="form-check-label" for="2">
+            Support, in general
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="Q4" value="3">
+          <label class="form-check-label" for="3">
+            More like support
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="Q4" value="4">
+          <label class="form-check-label" for="4">
+            More like against
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="Q4" value="5">
+          <label class="form-check-label" for="5">
+            Against, in general
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="Q4" value="6">
+          <label class="form-check-label" for="6">
+            Totally against
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="Q4" value="7">
+          <label class="form-check-label" for="7">
+            I don't know
+          </label>
+        </div>
+  <br>
+
+        <span><b>5. Were you satisfied with the taxation system that your society voted for?</b></span>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Q5" value="1">
+              <label class="form-check-label" for="1">
+                Yes
+              </label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Q5" value="2">
+              <label class="form-check-label" for="2">
+                Pretty much but I was indifferent
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Q5" value="3">
+              <label class="form-check-label" for="3">
+                No, I would have been better off under the other taxation system
+              </label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Q5" value="4">
+              <label class="form-check-label" for="4">
+                No, the society as a whole would have been better off under the other taxation system
+              </label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Q5" value="5">
+              <label class="form-check-label" for="5">
+                I did not completely understand the setting
+              </label>
+            </div>
+  <br>
+
+        <span><b>6. If you chose to do 'paid work' most of the times, why did you choose this option? <i>(multiple choice)</i></b></span>
+        
+           <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="Q6" value="1">
+              <label class="form-check-label" for="1">
+                I like solving mathematics tasks
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="2" name="Q6">
+              <label class="form-check-label" for="2">
+                I used calculator
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="3" name="Q6">
+              <label class="form-check-label" for="3">
+                I wanted to earn higher income
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="4" name="Q6">
+              <label class="form-check-label" for="4">
+                  I did not completely understand the setting
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="5" name="Q6">
+              <input class="form-control-md" type="text" placeholder="Type own reason" aria-label="default input example" name="Q6">
+            </div>
+       
+            <br>
+        
+            <span><b>7. How complicated were the 'paid work' tasks for you (if you chose to do paid work)?</b></span>
+            
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q7" value="1">
+                    <label class="form-check-label" for="1">
+                      Nightmare
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q7" value="2">
+                    <label class="form-check-label" for="2">
+                      Could have been a little easier
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q7" value="3">
+                    <label class="form-check-label" for="3">
+                      Could be harder
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q7" value="4">
+                    <label class="form-check-label" for="4">
+                      Very easy
+                    </label>
+                  </div>
+            
+            <br>    
+            <span><b>8. If you chose to do unpaid work most of the times, why did you choose this option? <i>(multiple choice)</i></b></span>
+        
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="1" name="Q8">
+                <label class="form-check-label" for="1">
+                  I support the idea of unpaid work being undervalued in the society
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="2" name="Q8">
+                <label class="form-check-label" for="2">
+                  I do not like solving mathematical tasks
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="3" name="Q8">
+                <label class="form-check-label" for="3">
+                    I was satisfied with my payoff
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="4" name="Q8">
+                <label class="form-check-label" for="4">
+                    I did not completely understand the setting
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="5" name="Q8">
+                <input class="form-control-md" type="text" placeholder="Type own reason" aria-label="default input example" name="Q8">
+              </div>
+            <br>
+
+            <span><b>9. If you chose not to work most of the times, why did you choose this option? <i>(multiple choice)</i></b></span>
+        
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="1" name="Q9">
+                <label class="form-check-label" for="1">
+                  I did not want to do any kind of work
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="2" name="Q9">
+                <label class="form-check-label" for="2">
+                  I do not like solving mathematical tasks
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="3" name="Q9">
+                <label class="form-check-label" for="3">
+                  I do not like text trivia
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="4" name="Q9">
+                <label class="form-check-label" for="4">
+                    I was satisfied with my payoff
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="5" name="Q9">
+                <label class="form-check-label" for="5">
+                    I did not completely understand the setting
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="6" name="Q9">
+                <input class="form-control-md" type="text" placeholder="Type own reason" aria-label="default input example" name="Q9">
+              </div>
+
+              <br>
+
+              <span><b>10. Did you change your decision to engage in paid work/unpaid work/no work based on your initial endowment in the Second Stage of the Third Part when you were informed about it?</b></span>
+    
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="Q10" value="1">
+                  <label class="form-check-label" for="1">
+                    Yes
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="Q10" value="2">
+                  <label class="form-check-label" for="2">
+                    Yes, but not much
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="Q10" value="3">
+                  <label class="form-check-label" for="3">
+                    No
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="Q10" value="4">
+                  <label class="form-check-label" for="4">
+                    I don't remember
+                  </label>
+                </div>
+          <br>            
+        
+        <span><b>11. Were you satisfied with your income when you did NOT know about your initial endowment?</b></span>
+        
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q11" value="1">
+                <label class="form-check-label" for="1">
+                  Very satisfied
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q11" value="2">
+                <label class="form-check-label" for="2">
+                  Satisfied, in general
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q11" value="3">
+                <label class="form-check-label" for="3">
+                  More like satisfied
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q11" value="4">
+                <label class="form-check-label" for="4">
+                  More like disappointed
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q11" value="5">
+                <label class="form-check-label" for="5">
+                  Disappointed, in general
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q11" value="6">
+                <label class="form-check-label" for="6">
+                  Totally disappointed
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q11" value="7">
+                <label class="form-check-label" for="7">
+                  I don't know
+                </label>
+              </div>
+
+             <br>
+
+              <span><b>12. Were you satisfied with your income AFTER you came to know about your initial endowment?</b></span>
+        
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="Q12" value="1">
+                  <label class="form-check-label" for="1">
+                    Very satisfied
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="Q12" value="2">
+                  <label class="form-check-label" for="2">
+                    Satisfied, in general
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="Q12" value="3">
+                  <label class="form-check-label" for="3">
+                    More like satisfied
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="Q12" value="4">
+                  <label class="form-check-label" for="4">
+                    More like disappointed
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="Q12" value="5">
+                  <label class="form-check-label" for="5">
+                    Disappointed, in general
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="Q12" value="6">
+                  <label class="form-check-label" for="6">
+                    Totally disappointed
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="Q12" value="7">
+                  <label class="form-check-label" for="7">
+                    I don't know
+                  </label>
+                </div>
+              <br>
+
+              <span><b>13. If you had known your rank or status (how much income you have compared to others) in your society, would you have changed your decisions to engage in paid work/unpaid work/no work to match with the others in your society or to match your desired status in the society?</b></span>
+    
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="Q13" value="1">
+                  <label class="form-check-label" for="1">
+                    Yes
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="Q13" value="2">
+                  <label class="form-check-label" for="2">
+                    Maybe
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="Q13" value="3">
+                  <label class="form-check-label" for="3">
+                    No
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="Q13" value="4">
+                  <label class="form-check-label" for="4">
+                    I don't know
+                  </label>
+                </div>
+          <br>
+
+                <span><b>14. How satisfied are you with your final payoff?</b></span>
+        
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q14" value="1">
+                    <label class="form-check-label" for="1">
+                      Very satisfied
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q14" value="2">
+                    <label class="form-check-label" for="2">
+                      Satisfied, in general
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q14" value="3">
+                    <label class="form-check-label" for="3">
+                      More like satisfied
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q14" value="4">
+                    <label class="form-check-label" for="4">
+                      More like disappointed
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q14" value="5">
+                    <label class="form-check-label" for="5">
+                      Disappointed, in general
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q14" value="6">
+                    <label class="form-check-label" for="6">
+                      Totally disappointed
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Q14" value="7">
+                    <label class="form-check-label" for="7">
+                      I don't know
+                    </label>
+                  </div>
+                  
+                  <br>
+        
+                  <span><b>15. Did you often compare your pay-off in experimental values to real value of money?</b></span>
+    
+                  <div class="form-check">
+                      <input class="form-check-input" type="radio" name="Q22" value="1">
+                      <label class="form-check-label" for="1">
+                        Yes, always
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="Q22" value="2">
+                      <label class="form-check-label" for="2">
+                        Yes, sometimes
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="Q22" value="3">
+                      <label class="form-check-label" for="3">
+                        No
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="Q22" value="4">
+                      <label class="form-check-label" for="4">
+                        I don't know
+                      </label>
+                    </div>
+              <br>
+
+        <br>
+        <p><b><i>Now we would like to ask several questions about you:</i></b></p>
+        
+        <br>
+        <span><b>1. How old are you?</b></span>
+            <div class="form-sm">
+        <input class="form-control-md" type="number" placeholder="Age" aria-label="default input example" name="Q27">
+        </div>
+        <br>
+        
+        <span><b>2. What is your gender?</b></span>
+        
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q15" value="1">
+                <label class="form-check-label" for="1">
+                  Female
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q15" value="2">
+                <label class="form-check-label" for="2">
+                  Male
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q15" value="3">
+                <label class="form-check-label" for="3">
+                  Neutral
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q15" value="4">
+                <label class="form-check-label" for="4">
+                  Other
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q15" value="5">
+                <label class="form-check-label" for="5">
+                  Prefer not to say
+                </label>
+              </div>
+            
+        <br>
+        
+        <span><b>3. What is your monthly net income?</b></span>
+        
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q16" value="1">
+                <label class="form-check-label" for="1">
+                    ≤ 500€
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q16" value="2">
+                <label class="form-check-label" for="2">
+                  500€ to 1000€
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q16" value="3">
+                <label class="form-check-label" for="3">
+                  1000€ to 1500€
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q16" value="4">
+                <label class="form-check-label" for="4">
+                  1500€ to 2000€
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q16" value="5">
+                <label class="form-check-label" for="5">
+                  2000€ to 2500€
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q16" value="6">
+                <label class="form-check-label" for="6">
+                  2500€ to 3000€
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q16" value="7">
+                <label class="form-check-label" for="7">
+                  3000€ to 3500€
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q16" value="8">
+                <label class="form-check-label" for="8">
+                  ≥ 3500€
+                </label>
+              </div><div class="form-check">
+                <input class="form-check-input" type="radio" name="Q16" value="9">
+                <label class="form-check-label" for="9">
+                    Prefer not to say
+                </label>
+              </div>
+        
+        <br>
+        
+        <span><b>4. What is your highest academic degree?</b></span>
+        
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q17" value="1">
+                <label class="form-check-label" for="1">
+                    Haupt-/ Volksschule
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q17" value="2">
+                <label class="form-check-label" for="2">
+                    Realschule (mittlere Reife)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q17" value="3">
+                <label class="form-check-label" for="3">
+                    Fach- oder Hochschulreife (Abitur)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q17" value="4">
+                <label class="form-check-label" for="4">
+                    Berufsausbildung / Lehre
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q17" value="5">
+                <label class="form-check-label" for="5">
+                    Bachelor
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q17" value="6">
+                <label class="form-check-label" for="6">
+                    Master
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q17" value="7">
+                <label class="form-check-label" for="7">
+                    Diplom
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q17" value="8">
+                <label class="form-check-label" for="8">
+                    PhD / Doctorate
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q17" value="9">
+                <label class="form-check-label" for="9">
+                    Prefer not to say
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q17" value="10">
+                <label class="form-check-label" for="10">
+                    Other
+                </label>
+              </div>
+        
+        <br>
+        
+        <span><b>5. What is your occupational sphere?</b></span>
+        
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="1" name="Q18">
+          <label class="form-check-label" for="1">
+              Student
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="2" name="Q18">
+          <input class="form-control-md" type="text" placeholder="Other - Type your answer" aria-label="default input example" name="Q18">
+        </div>
+        
+        
+        <br>
+        <br>
+        <span><b>6. How long have you been living in Germany?</b></span>
+        
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q19" value="1">
+                <label class="form-check-label" for="1">
+                    Less than 1 year
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q19" value="2">
+                <label class="form-check-label" for="2">
+                    1 - 3 years
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q19" value="3">
+                <label class="form-check-label" for="3">
+                    3 - 5 years
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q19" value="4">
+                <label class="form-check-label" for="4">
+                    5 - 7 years
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q19" value="5">
+                <label class="form-check-label" for="5">
+                    7 - 10 years
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q19" value="6">
+                <label class="form-check-label" for="6">
+                    More than 10 years
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q19" value="7">
+                <label class="form-check-label" for="7">
+                    Whole my life
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q19" value="8">
+                <label class="form-check-label" for="8">
+                    I don't live in Germany
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Q19" value="9">
+                <label class="form-check-label" for="9">
+                    Prefer not to say
+                </label>
+              </div>
+        
+        <br>
+        
+        <span><b>7. How would you describe your experience with this experiment?</b></span>
+        
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="Q20" value="1">
+                <label class="form-check-label" for="1">
+                  Exciting
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="Q20" value="2">
+                <label class="form-check-label" for="2">
+                  Interesting
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="Q20" value="3">
+                <label class="form-check-label" for="3">
+                  Modern
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="Q20" value="4">
+                <label class="form-check-label" for="4">
+                  Intuitive 
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="Q20" value="5">
+                <label class="form-check-label" for="5">
+                   Practice oriented
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="Q20" value="6">
+                <label class="form-check-label" for="6">
+                  Complicated 
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="Q20" value="7">
+                <label class="form-check-label" for="7">
+                  Boring 
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="Q20" value="8">
+                <label class="form-check-label" for="8">
+                  Confusing 
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="Q20" value="9">
+                <label class="form-check-label" for="9">
+                  Making me feel too dumb 
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="Q20" value="10">
+                <label class="form-check-label" for="10">
+                  Frustrating 
+                </label>
+              </div>
+           
+        
+        <br>
+        
+        <span>How would you like to receive your payment of your pay-off income?</span>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="1" name="Q21">
+          <label class="form-check-label" for="1">
+              Cash
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="2" name="Q21">
+          <label class="form-check-label" for="2">
+              Bank Transfer
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="3" name="Q21">
+          <label class="form-check-label" for="3">
+              Other / Discuss over WhatsApp
+          </label>
+        </div>
+        <br>
+
+        <span>Let us know if you have any comments or questions:</span>
+            
+        <textarea class="textarea" name ="Comments" placeholder="Type your comments"></textarea>
+<br><br>
+
+        
+        
+        <br>
+        <input class="btn btn-primary" type="submit" value="Submit">
+        </form>
+     
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        
+        
+          </div>
+          
+{% endblock %}
+
+

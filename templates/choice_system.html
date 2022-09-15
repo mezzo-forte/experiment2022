@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}Tax system choice{% endblock %}
+{% block content %}
+
+<p>At this small stage please choose the taxation system which you would choose after all. Your income will remain the same.</p>
+<br>
+
+<p>Your earned income: <b>{{ income }}</b> </p>
+<p>Your endowment: {% if part_started == 1 %}
+    yet unknown
+    {% elif part_started == 2 %}
+    {{endowment}}{% endif %}</p>
+<p>Taxation system: {{tax_system}}</p>
+
+
+<p>Your income after taxation: {{income_after_tax}}</p>
+<br>
+    <p style="color:dodgerblue">
+<br>               
+          <b>Which taxation system would you choose?</b></p>
+
+<br>
+<form method="POST" class="field">
+    <div class="control">
+        <label class="radio">
+            <input type="radio" name="answer" value="1">
+            Taxing income only (tax rate = 25%) - tax will be calculated based on your income earned through your paid work by successfully completing tasks
+        </label>
+    </div>
+    <br>
+    <div class="control">
+        <label class="radio">
+            <input type="radio" name="answer" value="2">
+            Taxing endowment only (tax rate = 25%) - tax will be calculated based on your inherited income (endowment), any amount of endowment would be randomly assigned to you and other participants in your group
+        </label>
+    </div>
+    
+    <br>
+    <div class="control">
+        <input type="submit" class="button is-primary" value="Submit">
+    </div>
+</form>
+
+<br>
+<p> <i>The taxation system will not change anymore, regardless of your choice</i>
+    
+</p>
+
+
+{% endblock %}

@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="{{ url_for ('static', filename='assets/favicon.ico')}}">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+	
+  <title>Chat</title>
+	
+  </head>
+	<body>
+
+
+
+<div class="container" id="voting_box">
+    <div class="box">
+    {% if revote != "True" %}
+    <h1 class="title">The following should be discussed and voted for unanimously (100%) <b>[please use the chat to talk to other players]</b>:</h1>
+    {% elif revote=="True" %}
+    <h1 class="subtitle" style="color:crimson">No unanimous agreement has been yet reached. You can discuss the issue further and vote unless unanimous decision has been taken.</h1>
+    {% endif %}
+
+    {% if stage=="Constitutional" %}
+    <h1 class="subtitle" style="color:#d36480; font-weight: bold">Which voting principle should be applied for choosing rules for your society? </h1>
+    <p>1. Voting by simple majority (>50%)</p>
+    <br>
+    <p>2. Unanimous voting (100%)</p>
+    {% elif stage=="Taxation" %}
+    <h1 class="subtitle" style="color:#d36480; font-weight: bold">Which taxation system should your society have? (Voting by {{voting_type}}) </h1>
+    <p>1. Taxing income only (tax rate = 25%) - tax will be calculated based on your income earned through your paid work by successfully completing tasks</p>
+    <br>
+    <p>2. Taxing endowment only (tax rate = 25%) - tax will be calculated based on your inherited income (endowment), any amount of endowment would be randomly assigned to you and other participants in your group</p>
+    {% endif %}
+</div>
+</div>
+
+
+<div class="container box">
+    <h1 class="title">Once you are done with discussion, type "/vote" in the chat to go for the voting</h1>
+
+    <div id="messages">
+        {% for entry in chat_history %}
+        <div><b>{{entry['Username']}}:</b> {{entry['Message']}}</div>
+        {% endfor %}
+
+    </div>
+
+    <form id="message_input_form">
+        <input class="input" autocomplete="off" id="message_input" type="text" placeholder="Enter your message here">
+        <button class="button is-primary" type="submit" id="send_button">Send</button>
+    </form>
+</div>
+
+<script src= "https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.0/socket.io.min.js"></script>
+
+<script>
+    const socket = io.connect('https://experiment.socolab.online');
+    
+    socket.on('connect', () => {
+        socket.send("user {{ user }} connected!");
+        socket.emit('join_room', {
+            username: "{{ username }}",
+            room: "{{ room }}"
+        });
+        
+        setMessageEvent()
+
+    });
+
+    socket.on('join_room', function (data) {
+        console.log(data.chat_history)
+        /* for (const entry of data.chat_history) {
+            const newNode = document.createElement('div');
+            newNode.innerHTML = `${entry.Time}&nbsp;<b>${entry.Username}:&nbsp;</b> ${entry.Message}`;
+            document.getElementById('messages').appendChild(newNode);
+        } */
+        
+        
+        
+    });
+
+    setMessageEvent = () => {
+            let message_input = document.getElementById('message_input');
+            document.getElementById('message_input_form').onsubmit = function (e) {
+                e.preventDefault();
+                let message = message_input.value.trim();
+                if (message=='/vote' || message== '&quot;/vote&quot;' ){
+                    window.location.replace('/voting');
+                    socket.emit('voting_stage',{
+                        username: "{{ username }} ",
+                        room: "{{ room }}"
+                    })
+                }  
+
+                else if (message.length) {
+                    socket.emit('send_message', {
+                        username: "{{ username }} ",
+                        room: "{{ room }}",
+                        message: message
+                    })
+                    message_input.value = '';
+                    message_input.focus();
+                }
+                
+            }
+        }
+
+    
+
+    socket.on('receive_message', function (data) {
+        const newNode = document.createElement('div');
+        newNode.innerHTML = `<b>${data.username}:&nbsp;</b> ${data.message}`;
+        document.getElementById('messages').appendChild(newNode);
+        newNode.scrollIntoView(true);
+    });
+
+    /*socket.on('join_room_announcement', function(data) {
+        console.log(data);
+        const newNode = document.createElement('div');
+        newNode.innerHTML = `<i>***${data.username} has joined the chat</i>`;
+        document.getElementById('messages').appendChild(newNode);
+    });*/
+</script>
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>

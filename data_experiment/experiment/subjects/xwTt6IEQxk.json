@@ -1,0 +1,76 @@
+{
+  "Subject": "xwTt6IEQxk",
+  "Country": "China",
+  "Land_income_tier": "high",
+  "Subject_number_tier": 25,
+  "Group_number_for_model": 10,
+  "Group": "high10",
+  "Endowment": 29300,
+  "Model": "UBI",
+  "Active_part": 1,
+  "Voted_for": "2",
+  "Taxation_system": "Endowment_tax",
+  "Tasks": {
+    "12": [
+      "Paid",
+      "400",
+      "Correct"
+    ],
+    "13": [
+      "Paid",
+      "264",
+      "Correct"
+    ],
+    "14": [
+      "Paid",
+      "294",
+      "Correct"
+    ],
+    "15": [
+      "Paid",
+      "375",
+      "Correct"
+    ],
+    "16": [
+      "Paid",
+      "364",
+      "Correct"
+    ],
+    "17": [
+      "Paid",
+      "276",
+      "Correct"
+    ],
+    "18": [
+      "Paid",
+      "312",
+      "Correct"
+    ],
+    "19": [
+      "Paid",
+      "378",
+      "Correct"
+    ],
+    "20": [
+      "Nowork"
+    ],
+    "21": [
+      "Unpaid",
+      "Correct"
+    ],
+    "22": [
+      "Unpaid",
+      "Correct"
+    ],
+    "23": [
+      "Unpaid",
+      "Incorrect"
+    ]
+  },
+  "Income_part1": 49200,
+  "Income_after_taxation_part1": 72375.0,
+  "Income_part2": 45200,
+  "Income_after_taxation_part2": 68375.0,
+  "Total_income": 140750.0,
+  "System_chosen": "2"
+}

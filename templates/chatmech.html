@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Chat{% endblock %}
+{% block content %}
+
+<h1 class="title">Chat</h1>
+<form action="/chat">
+    <div class="field is-horizontal">
+        <label class="label">Enter your username:</label>
+        <input class = "input" type="text" name = "username">
+    </div>
+    <div class="field is-horizontal">
+        <label class="label">Enter room id:</label>
+        <input class= "input" type="text" name = "room">
+    </div>
+    <button class="button is-primary" type="submit">Submit</button>
+</form>
+
+
+
+
+{% endblock %}

@@ -1,0 +1,79 @@
+{
+  "Subject": "fsvN2DOJ3E",
+  "Country": "India",
+  "Land_income_tier": "high",
+  "Subject_number_tier": 24,
+  "Group_number_for_model": 9,
+  "Group": "high9",
+  "Endowment": 20900,
+  "Model": "UBIWS",
+  "Active_part": 1,
+  "Taxation_system": "Income_tax",
+  "Voted_for": "1",
+  "Tasks": {
+    "12": [
+      "Paid",
+      "400",
+      "Correct"
+    ],
+    "13": [
+      "Nowork"
+    ],
+    "14": [
+      "Paid",
+      "294",
+      "Correct"
+    ],
+    "15": [
+      "Paid",
+      "375",
+      "Correct"
+    ],
+    "16": [
+      "Paid",
+      "354",
+      "Incorrect"
+    ],
+    "17": [
+      "Paid",
+      "276",
+      "Correct"
+    ],
+    "18": [
+      "Paid",
+      "312",
+      "Correct"
+    ],
+    "19": [
+      "Paid",
+      "378",
+      "Correct"
+    ],
+    "20": [
+      "Paid",
+      "264",
+      "Correct"
+    ],
+    "21": [
+      "Paid",
+      "408",
+      "Correct"
+    ],
+    "22": [
+      "Paid",
+      "414",
+      "Correct"
+    ],
+    "23": [
+      "Paid",
+      "378",
+      "Correct"
+    ]
+  },
+  "Income_part1": 38800.0,
+  "Income_after_taxation_part1": 56900.0,
+  "Income_part2": 48000.0,
+  "Income_after_taxation_part2": 64100.0,
+  "Total_income": 121000.0,
+  "System_chosen": "1"
+}

@@ -1,0 +1,65 @@
+{
+  "Subject": "dljOF4ywZS",
+  "Country": "Afghanistan",
+  "Land_income_tier": "high",
+  "Subject_number_tier": 26,
+  "Group_number_for_model": 10,
+  "Group": "high10",
+  "Endowment": 41800,
+  "Model": "UBI",
+  "Active_part": 1,
+  "Voted_for": "2",
+  "Taxation_system": "Endowment_tax",
+  "Tasks": {
+    "12": [
+      "Nowork"
+    ],
+    "13": [
+      "Nowork"
+    ],
+    "14": [
+      "Nowork"
+    ],
+    "15": [
+      "Nowork"
+    ],
+    "16": [
+      "Unpaid",
+      "Incorrect"
+    ],
+    "17": [
+      "Unpaid",
+      "Correct"
+    ],
+    "18": [
+      "Unpaid",
+      "Incorrect"
+    ],
+    "19": [
+      "Unpaid",
+      "Incorrect"
+    ],
+    "20": [
+      "Unpaid",
+      "Correct"
+    ],
+    "21": [
+      "Unpaid",
+      "Correct"
+    ],
+    "22": [
+      "Unpaid",
+      "Incorrect"
+    ],
+    "23": [
+      "Unpaid",
+      "Incorrect"
+    ]
+  },
+  "Income_part1": 13200,
+  "Income_after_taxation_part1": 45750.0,
+  "Income_part2": 13200,
+  "Income_after_taxation_part2": 45750.0,
+  "Total_income": 91500.0,
+  "System_chosen": "2"
+}

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Land chosen{% endblock %}
+{% block content %}
+
+
+<p style="color:crimson"><b>You have chosen the task type for this already!</b></p>
+<br>
+Your task is: {% if task=="paid" %}
+paid work - solving maths for points
+{% elif task == "unpaid" %}
+unpaid work - playing trivia without points 
+{% elif task=="nowork" %}
+no work - watching fun content
+{% endif %}
+
+<br>
+<br>
+
+You can change the task type after completing each task
+
+<br><br>
+
+    <div class="buttons">
+        <a href="/{{task}}" class="button is-info">OK</a>
+    </div>
+
+ 
+
+{% endblock %}

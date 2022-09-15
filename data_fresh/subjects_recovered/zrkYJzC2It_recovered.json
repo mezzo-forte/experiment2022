@@ -1,0 +1,97 @@
+{
+  "Active_part": 2,
+  "Answer_given": "371",
+  "Constitution": "Majority",
+  "Correct_part1": 9,
+  "Correct_part2": 5,
+  "Country": "Hungary",
+  "Current_task_content": "14 * 27",
+  "Current_task_correct_answer": "378",
+  "Current_task_id": 23,
+  "Current_task_options": [
+    "40 inches",
+    "34 inches"
+  ],
+  "Endowment": 1200,
+  "Finished": "True",
+  "First_time_entering": "True",
+  "Group": "high1",
+  "Group_number_for_model": 1,
+  "Income_after_taxation_part1": 3750.0,
+  "Income_after_taxation_part2": 3150.0,
+  "Income_current": 2100,
+  "Income_part1": 2900,
+  "Income_part2": 2100,
+  "Land_income_tier": "high",
+  "Last_task": "Incorrect",
+  "Model": "UBI",
+  "No_work_part1": 0,
+  "No_work_part2": 2,
+  "Number_in_group": 1,
+  "Paid_work_part1": 9,
+  "Paid_work_part2": 7,
+  "Questionnaire": {
+    "Comments": "",
+    "Q1": "1",
+    "Q10": "1",
+    "Q11": "3",
+    "Q12": "2",
+    "Q13": "1",
+    "Q14": "2",
+    "Q15": "2",
+    "Q16": "2",
+    "Q17": "5",
+    "Q18": "1",
+    "Q19": "1",
+    "Q2": "2",
+    "Q20": "1",
+    "Q21": "3",
+    "Q22": "2",
+    "Q3": "1",
+    "Q4": "1",
+    "Q5": "1",
+    "Q6": "1",
+    "Q7": "3",
+    "Q8": "",
+    "Q9": ""
+  },
+  "Questionnaire_list": {
+    "": "",
+    "Q18": [
+      "1",
+      ""
+    ],
+    "Q20": [
+      "1",
+      "2",
+      "5"
+    ],
+    "Q6": [
+      "1",
+      "3",
+      ""
+    ],
+    "Q8": [
+      ""
+    ],
+    "Q9": [
+      ""
+    ]
+  },
+  "Revote": "False",
+  "Stage": "Taxation",
+  "Subject": "zrkYJzC2It",
+  "Subject_number_overall": 1,
+  "Subject_number_tier": 1,
+  "System_choice": "True",
+  "System_chosen": "1",
+  "Task_type": "Paid",
+  "Taxation_system": "Income",
+  "Total_income": 6900.0,
+  "Unpaid_work_part1": 3,
+  "Unpaid_work_part2": 3,
+  "Voted_for_constitution": "Majority",
+  "Voted_for_taxation": "Income",
+  "Work_units_part1": 12,
+  "Work_units_part2": 12
+}

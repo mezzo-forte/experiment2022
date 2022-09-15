@@ -1,0 +1,103 @@
+{
+  "Subject": "OTFwphADqh",
+  "Country": "Germany",
+  "Land_income_tier": "high",
+  "Subject_number_tier": 6,
+  "Group_number_for_model": 2,
+  "Group": "high2",
+  "Endowment": 1500,
+  "Model": "WS",
+  "Active_part": 1,
+  "Constitution": "Majority",
+  "Taxation_system": "Income",
+  "Tasks": {
+    "12": [
+      "Paid",
+      "400",
+      "Correct"
+    ],
+    "13": [
+      "Nowork"
+    ],
+    "14": [
+      "Paid",
+      "294",
+      "Correct"
+    ],
+    "15": [
+      "Nowork"
+    ],
+    "16": [
+      "Nowork"
+    ],
+    "17": [
+      "Nowork"
+    ],
+    "18": [
+      "Nowork"
+    ],
+    "19": [
+      "Nowork"
+    ],
+    "20": [
+      "Unpaid",
+      "Incorrect"
+    ],
+    "21": [
+      "Unpaid",
+      "Correct"
+    ],
+    "22": [
+      "Unpaid",
+      "Correct"
+    ],
+    "23": [
+      "Paid",
+      "378",
+      "Correct"
+    ]
+  },
+  "Income_part1": 1800.0,
+  "Income_after_taxation_part1": 3250.0,
+  "Income_part2": 600.0,
+  "Income_after_taxation_part2": 2250.0,
+  "Total_income": 5500.0,
+  "System_chosen": "2",
+  "Q1": "1",
+  "Q2": "4",
+  "Q3": "2",
+  "Q4": "7",
+  "Q5": "2",
+  "Q6": [
+    "2",
+    ""
+  ],
+  "Q7": "4",
+  "Q8": [
+    "1",
+    ""
+  ],
+  "Q9": [
+    "6",
+    "see the memes"
+  ],
+  "Q10": "1",
+  "Q11": "3",
+  "Q12": "3",
+  "Q13": "4",
+  "Q14": "2",
+  "Q22": "1",
+  "Q15": "5",
+  "Q16": "9",
+  "Q17": "5",
+  "Q18": [
+    "1",
+    ""
+  ],
+  "Q19": "3",
+  "Q20": [
+    "7"
+  ],
+  "Q21": "2",
+  "Comments": ""
+}

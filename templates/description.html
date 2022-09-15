@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}General Description of the Experiment{% endblock %}
+{% block content %}
+
+
+<p><b>General Description of the Experiment</b></p>
+    <br>
+
+<p>► The experiment consists of five parts:
+<br>1) First part consists of voting (in synchrony with other participants in the group) on voting principle that will take approximately 4 minutes.
+<br>2) Second part consists of voting (in synchrony with other participants in the group) on taxation system that will take approximately 1 minute.
+<br>3) Third part - first stage consists of 12 tasks that will take approximately 4-5 minutes and it will be played individually.
+<br>3) Third part - second stage consists of 12 tasks that will take approximately 4-5 minutes approximately and it will be played individually.
+<br>4) Fourth part consists of selecting your choice on taxation system individually that will take approximately 1 minute.
+<br>5) Fifth part consists of a questionnaire (to be answered individually) that will take approximately 4-6 minutes.
+<br><br>
+
+<img src="{{ url_for ('static', filename='assets/exp_scheme.jpg')}}">
+
+<br><br>► The currency used in the experiment is EUR
+<br><br>
+► At the end of the experiment you will receive a coupon code for your reward. Please save this coupon code so that we can verify your exact pay-off amount during the payment process. 
+
+</p>
+<br>
+
+<div class="buttons">
+    <a href="/land" class="button is-success">Start</a>
+</div>
+
+
+
+
+
+{% endblock %}

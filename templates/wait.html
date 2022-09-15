@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Waiting {% endblock %}
+{% block content %}
+
+    <p style="color:dodgerblue">
+               
+          <b>Voting in progress.. Please wait! The experiment will continue automatically</b></p>
+    <br>
+          <p>
+        <progress class="progress is-medium is-info" max="100"></progress>
+    </p>
+    
+          <br><br>
+
+          <figure class="image is-16by9">
+            <iframe class="has-ratio" width="560" height="315" src="https://www.youtube.com/embed/RQ2HbYnlc3s" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          </figure>
+
+<br><br>
+<script> window.location.replace('/results_voting'); </script>
+
+{% endblock %}

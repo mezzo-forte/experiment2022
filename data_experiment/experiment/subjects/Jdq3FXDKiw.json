@@ -1,0 +1,32 @@
+{
+  "Subject": "Jdq3FXDKiw",
+  "Country": "Germany",
+  "Land_income_tier": "high",
+  "Subject_number_tier": 38,
+  "Group_number_for_model": 14,
+  "Group": "high14",
+  "Endowment": 39300,
+  "Model": "WS",
+  "Active_part": 1,
+  "Voted_for": "2",
+  "Taxation_system": "Endowment_tax",
+  "Tasks": {
+    "0": [
+      "Paid",
+      "242",
+      "Correct"
+    ],
+    "1": [
+      "Paid",
+      "513",
+      "Correct"
+    ],
+    "2": [
+      "Unpaid",
+      "Correct"
+    ],
+    "3": [
+      "Paid"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "Subject": "DKGHd2Hjm6",
+  "Country": "Vietnam",
+  "Land_income_tier": "high",
+  "Subject_number_tier": 1,
+  "Group_number_for_model": 1,
+  "Group": "high1",
+  "Endowment": 1800,
+  "Model": "UBI",
+  "Active_part": 1,
+  "Constitution": "Unanimity",
+  "Taxation_system": "Income",
+  "Tasks": {
+    "12": [
+      "Paid",
+      "400",
+      "Correct"
+    ],
+    "13": [
+      "Paid",
+      "264",
+      "Correct"
+    ],
+    "14": [
+      "Nowork"
+    ],
+    "15": [
+      "Nowork"
+    ],
+    "16": [
+      "Unpaid",
+      "Correct"
+    ],
+    "17": [
+      "Paid",
+      "276",
+      "Correct"
+    ],
+    "18": [
+      "Nowork"
+    ],
+    "19": [
+      "Nowork"
+    ],
+    "20": [
+      "Nowork"
+    ],
+    "21": [
+      "Nowork"
+    ],
+    "22": [
+      "Nowork"
+    ],
+    "23": [
+      "Nowork"
+    ]
+  },
+  "Income_part1": 1500,
+  "Income_after_taxation_part1": 3300.0,
+  "Income_part2": 1700,
+  "Income_after_taxation_part2": 3450.0,
+  "Total_income": 6750.0,
+  "System_chosen": "2",
+  "Q1": "1",
+  "Q2": "4",
+  "Q3": "1",
+  "Q4": "3",
+  "Q5": "3",
+  "Q6": [
+    ""
+  ],
+  "Q7": "2",
+  "Q8": [
+    "3",
+    ""
+  ],
+  "Q9": [
+    "4",
+    ""
+  ],
+  "Q10": "1",
+  "Q11": "3",
+  "Q12": "4",
+  "Q13": "2",
+  "Q14": "4",
+  "Q22": "1",
+  "Q15": "1",
+  "Q16": "2",
+  "Q17": "5",
+  "Q18": [
+    "1",
+    ""
+  ],
+  "Q19": "1",
+  "Q20": [
+    "8"
+  ],
+  "Q21": "3",
+  "Comments": ""
+}

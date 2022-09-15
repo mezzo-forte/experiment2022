@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}Voting{% endblock %}
+{% block content %}
+
+<br>
+<p>Your earned income: <b>{{income}}</b></p>
+<p>Your current endowment: {% if part_started == 1 %}
+    <b>yet unknown</b>
+    {% elif part_started == 2 %}
+    <b>{{endowment}}</b>{% endif %}</p>
+    <br>
+
+<p style="color:dodgerblue">
+    <br>
+    <b>Please vote for a taxation system</b>
+</p>
+<br>
+
+<form class="field" id="voting_form" method="POST">
+    <div class="control">
+        <label class="radio">
+            <input type="radio" name="Taxation" value="Income">
+            Taxing income only (tax rate = 25%) - tax will be calculated based on your income earned through your paid work by successfully completing tasks
+        </label>
+    </div>
+    <br>
+    <div class="control">
+        <label class="radio">
+            <input type="radio" name="Taxation" value="Endowment">
+            Taxing endowment only (tax rate = 25%) - tax will be calculated based on your inherited income (endowment), any amount of endowment would be randomly assigned to you and other participants in your group
+        </label>
+    </div>
+    
+    <br>
+    <div class="control">
+        <input type="submit" class="button is-primary" value="Vote">
+    </div>
+</form>
+
+<br>
+
+
+{% endblock %}

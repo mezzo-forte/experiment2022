@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}Results part 1{% endblock %}
+{% block content %}
+
+
+    <p style="color:dodgerblue"><b>Results of this stage</b></p>
+<br>
+<br>
+<p>You have successfully coped with the tasks from Stage 1!</p>
+
+<p>Your earned income: <b>{{ income }}</b> </p>
+<p>Your endowment: {% if part_started == 1 %}
+    yet unknown
+    {% elif part_started == 2 %}
+    {{endowment}}{% endif %}</p>
+<p>Taxation system: {{tax_system}}</p>
+
+
+
+<p>Now the endowment will finally be revealed....</p>
+
+<p>...your endowment is {{endowment}}</p>
+
+
+<p>Your income after taxation: {{income_after_tax}}</p>
+
+<br><br>
+<form method='POST'>
+    <button type="submit" name="to_next_part" class="button is-primary"
+        value="Part_finished">Next part</button>
+</form>
+<!-- 
+    <div class="buttons">
+        <a href="/model2" class="button is-info">Next</a>
+    </div> -->
+
+ 
+
+{% endblock %}

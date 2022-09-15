@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Experiment rules for Stage 1 - Part 1{% endblock %}
+{% block content %}
+
+
+<p><b>Social model description - Stage 2</b></p>
+    <br>
+
+<p>Now that you now know your intial endowment (inherited income) that was assigned to you at the beginning of the previous stage, your income composition slightly changes (the gross income would be now displayed inclusive of your endowment).
+<br>However, the task rules remain the same.
+<br><br>► You are a member of the society of {{ group_size }} individuals where everyone is engaged in three types of work: paid-work, unpaid-work or no work. Paid work generates income.
+<br>► Each member in the group <b><i>knows about</i></b> their randomly assigned level of initial endowment ranging anywhere between € {{ lower_range }} to € {{ upper_range }}.
+<br>► All members of the society receive an unconditional transfer (<b>G</b>) of € {{ amount_UBI }} each month from the state without any exceptions and <b>regardless</b> of their involvement in paid-work.
+<br>► If you take up paid-work, you receive an income (in addition to € {{ amount_UBI }}) according to tasks completed (<b>h</b>) and constant wage rate (<b>w</b>) of € {{ wage_rate }} per month.
+<br>► You have 1 month of possible working time (1 month = 1 task, 12 tasks = 1 year). You can decide how to spend this time between available work types.
+<br>► The poverty threshhold is 15%, meaning, income below € 153 is not taxed, while income over € 153 would be taxed with a flat tax rate (<b>t</b>) of {{ tax_rate }}. Thus, your overall gross (NOT inclusive of tax) income can be described by the following formula:
+<br> <img src="{{ url_for ('static', filename='assets/UBI_Income_Endowment.png')}}">
+<br><br>
+<br>► The tasks include engaging in ONE of the three types of work types:
+<br>1) Paid Work: involves solving a simple math task (ex. 21*16=?) (only successful solving of the task would be rewarded with income). You receive income points <b>only</b> for correctly solved tasks.
+<br>2) Unpaid Work: involves playing trivia(quiz) and learning something new. You do not get income points for this type of task.
+<br>3) No work: involves reading memes (comics). You do not get income points for this type of task.
+<br><br>
+<p style="color:goldenrod"><b>
+    Click "Proceed" to continue playing!
+</b>
+</p>
+
+        
+</p>
+<br>
+
+<div class="buttons">
+    <a href="/taskchoice" class="button is-success">Proceed</a>
+</div>
+
+
+
+
+
+{% endblock %}

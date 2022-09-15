@@ -1,0 +1,31 @@
+{
+  "high2": [
+    "Majority",
+    "Majority",
+    "Majority",
+    "Majority",
+    "Majority"
+  ],
+  "high1": [
+    "Unanimity",
+    "Unanimity",
+    "Unanimity",
+    "Unanimity",
+    "Unanimity"
+  ],
+  "high4": [
+    "Unanimity",
+    "Unanimity",
+    "Unanimity",
+    "Unanimity",
+    "Unanimity",
+    "Majority",
+    "Unanimity",
+    "Majority"
+  ],
+  "high3": [
+    "Unanimity",
+    "Unanimity",
+    "Unanimity"
+  ]
+}

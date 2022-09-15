@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Voting results{% endblock %}
+{% block content %}
+
+
+    <p style="color:dodgerblue"><b>Results of the voting:</b></p>
+<br>
+<br>
+
+The taxation system chosen by the majority: <b style="color:lightseagreen">{% if voted=="1" %}income tax only
+{% elif voted=="2" %}endowment tax only{% endif %}
+</b>
+
+<br><br>
+<br><br>
+
+    <div class="buttons">
+        <a href="/taskchoice" class="button is-info">To tasks!</a>
+    </div>
+
+ 
+
+{% endblock %}

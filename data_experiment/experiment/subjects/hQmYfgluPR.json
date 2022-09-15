@@ -1,0 +1,78 @@
+{
+  "Subject": "hQmYfgluPR",
+  "Country": "Afghanistan",
+  "Land_income_tier": "high",
+  "Subject_number_tier": 28,
+  "Group_number_for_model": 11,
+  "Group": "high11",
+  "Endowment": 7200,
+  "Model": "WS",
+  "Active_part": 1,
+  "Voted_for": "1",
+  "Taxation_system": "Endowment_tax",
+  "Tasks": {
+    "12": [
+      "Unpaid",
+      "Correct"
+    ],
+    "13": [
+      "Paid",
+      "264",
+      "Correct"
+    ],
+    "14": [
+      "Paid",
+      "294",
+      "Correct"
+    ],
+    "15": [
+      "Nowork"
+    ],
+    "16": [
+      "Nowork"
+    ],
+    "17": [
+      "Nowork"
+    ],
+    "18": [
+      "Nowork"
+    ],
+    "19": [
+      "Nowork"
+    ],
+    "20": [
+      "Nowork"
+    ],
+    "21": [
+      "Nowork"
+    ],
+    "22": [
+      "Nowork"
+    ],
+    "23": [
+      "Nowork"
+    ]
+  },
+  "Income_part1": 20800.0,
+  "Income_after_taxation_part1": 26200.0,
+  "Income_part2": 10400.0,
+  "Income_after_taxation_part2": 15800.0,
+  "Total_income": 42000.0,
+  "System_chosen": "2",
+  "Q6": [
+    ""
+  ],
+  "Q8": [
+    ""
+  ],
+  "Q9": [
+    ""
+  ],
+  "Q7": "",
+  "Q18": [
+    ""
+  ],
+  "Comments": "",
+  "Email": "",
+  "Q20": []
+}

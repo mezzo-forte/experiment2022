@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Experiment 2022 {% endblock %}
+{% block content %}
+
+
+<div class="container is-fluid">
+    <p><b>Task {{ current_work_units }}/{{ total_work_units }}</b></p>
+    <br>
+    <p> Enjoy your memes! </p>
+    <br>
+    <img src="{{url_for ('static', filename='assets/m'+ task_id + '.jpg')}}" class="image">
+    <br><br>
+    <form method='POST'>
+        <button type="submit" name="nowork_submit" class="button is-primary"
+            value="{{task_id}}">Proceed</button>
+    </form>
+
+
+    <br>
+    
+</div>
+
+
+{% endblock %}

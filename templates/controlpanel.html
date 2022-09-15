@@ -1,0 +1,438 @@
+{% extends "base.html" %}
+{% block title %}Control Panel{% endblock %}
+{% block content %}
+
+<div class="columns">
+    <div class="column is-narrow">
+        <div class="card">
+            <header class="card-header">
+                <p class="card-header-title is-centered" style="color:#D36480">
+                    General statistics
+                </p>
+            </header>
+
+            <div class="card-content has-text-centered">
+                <!-- <div class="content"> -->
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th style="color:#1F609E">Subjects started: </th>
+                            <td>{{subjects_count}}</td>
+                        </tr>
+                        <tr>
+                            <th style="color:#1F609E">Finished:</th>
+                            <td>{{subjects_finished}}</td>
+                        </tr>
+                        <tr>
+                            <th style="color:#1F609E">UBI:</th>
+                            <td>{{ubi_count}}</td>
+                        </tr>
+                        <tr>
+                            <th style="color:#1F609E">WS:</th>
+                            <td>{{ws_count}}</td>
+                        </tr>
+                        <tr>
+                            <th style="color:#1F609E">UBIWS:</th>
+                            <td>{{ubiws_count}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- </div> -->
+            </div>
+
+        </div>
+    </div>
+    <div class="column is-narrow">
+        <div class="card">
+            <header class="card-header">
+                <p class="card-header-title is-centered" style="color:#D36480">
+                    Group statistics
+                </p>
+
+            </header>
+
+            <div class="card-content">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th style="color:#1F609E">Full groups: </th>
+                            <td>{{full_groups}}</td>
+                        </tr>
+                        <tr>
+                            <th style="color:#1F609E">UBI groups:</th>
+                            <td>{{(ubi_group_count)|int}}</td>
+                        </tr>
+                        <tr>
+                            <th style="color:#1F609E">WS groups:</th>
+                            <td>{{(ws_group_count)|int}}</td>
+                        </tr>
+                        <tr>
+                            <th style="color:#1F609E">UBIWS groups:</th>
+                            <td>{{(ubiws_group_count)|int}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<div class="container">
+    <div class="columns">
+
+        <div class="column is-narrow">
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title is-centered" style="color:#D36480">
+                        Average income earned (+ social benefits)
+                    </p>
+                </header>
+
+                <div class="card-content has-text-centered">
+                    <!-- <div class="content"> -->
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>
+
+                                </th>
+                                <th style="color:#1F609E">
+                                    Behind veil
+                                </th>
+                                <th style="color:#1F609E">
+                                    Unveiled
+                                </th>
+                                <th style="color:#1F609E">
+                                    Avg
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <th style="color:#1F609E">UBI:</th>
+                                <td>{{average_income_earned_part1[0]}}</td>
+                                <td>{{average_income_earned_part2[0]}}</td>
+                                <td>{{((average_income_earned_part1[0]+average_income_earned_part2[0])/2)|int}}</td>
+                            </tr>
+                            <tr>
+                                <th style="color:#1F609E">WS:</th>
+                                <td>{{average_income_earned_part1[1]}}</td>
+                                <td>{{average_income_earned_part2[1]}}</td>
+                                <td>{{((average_income_earned_part1[1]+average_income_earned_part2[1])/2)|int}}</td>
+                            </tr>
+                            <tr>
+                                <th style="color:#1F609E">UBIWS:</th>
+                                <td>{{average_income_earned_part1[2]}}</td>
+                                <td>{{average_income_earned_part2[2]}}</td>
+                                <td>{{((average_income_earned_part1[2]+average_income_earned_part2[2])/2)|int}}</td>
+                            </tr>
+                            <tr>
+                                <th style="color:#1F609E">All models: </th>
+                                <td>{{((average_income_earned_part1[0]+average_income_earned_part1[1] +
+                                    average_income_earned_part1[2])/3)|int}}</td>
+                                <td>{{((average_income_earned_part2[0]+average_income_earned_part2[1] +
+                                    average_income_earned_part2[2])/3)|int}}</td>
+                                <td>
+                                    {{(((average_income_earned_part1[0]+average_income_earned_part2[0])/2 +
+                                    (average_income_earned_part1[1]+average_income_earned_part2[1])/2 +
+                                    (average_income_earned_part1[2]+average_income_earned_part2[2])/2)/3)|int}}
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- </div> -->
+                </div>
+
+            </div>
+        </div>
+        <div class="column is-narrow">
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title is-centered" style="color:#D36480">
+                        Average wealth after taxation (income + endowment)
+                    </p>
+                </header>
+
+                <div class="card-content has-text-centered">
+                    <!-- <div class="content"> -->
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>
+
+                                </th>
+                                <th style="color:#1F609E">
+                                    Behind veil
+                                </th>
+                                <th style="color:#1F609E">
+                                    Unveiled
+                                </th>
+                                <th style="color:#1F609E">
+                                    Avg
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <th style="color:#1F609E">UBI:</th>
+                                <td>{{average_income_after_taxation_part1[0]}}</td>
+                                <td>{{average_income_after_taxation_part2[0]}}</td>
+                                <td>{{((average_income_after_taxation_part1[0]+average_income_after_taxation_part2[0])/2)|int}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <th style="color:#1F609E">WS:</th>
+                                <td>{{average_income_after_taxation_part1[1]}}</td>
+                                <td>{{average_income_after_taxation_part2[1]}}</td>
+                                <td>{{((average_income_after_taxation_part1[1]+average_income_after_taxation_part2[1])/2)|int}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <th style="color:#1F609E">UBIWS:</th>
+                                <td>{{average_income_after_taxation_part1[2]}}</td>
+                                <td>{{average_income_after_taxation_part2[2]}}</td>
+                                <td>{{((average_income_after_taxation_part1[2]+average_income_after_taxation_part2[2])/2)|int}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <th style="color:#1F609E">All models: </th>
+                                <td>{{((average_income_after_taxation_part1[0]+average_income_after_taxation_part1[1] +
+                                    average_income_after_taxation_part1[2])/3)|int}}</td>
+                                <td>{{((average_income_after_taxation_part2[0]+average_income_after_taxation_part2[1] +
+                                    average_income_after_taxation_part2[2])/3)|int}}</td>
+                                <td>
+                                    {{(((average_income_after_taxation_part1[0]+average_income_after_taxation_part2[0])/2
+                                    + (average_income_after_taxation_part1[1]+average_income_after_taxation_part2[1])/2
+                                    +
+                                    (average_income_after_taxation_part1[2]+average_income_after_taxation_part2[2])/2)/3)|int}}
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- </div> -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="columns">
+        <div class="column is-narrow">
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title is-centered" style="color:#D36480">
+                        Average paid work hours
+                    </p>
+                </header>
+                <div class="card-content has-text-centered">
+                    <!-- <div class="content"> -->
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>
+
+                                </th>
+                                <th style="color:#1F609E">
+                                    B.V.
+                                </th>
+                                <th style="color:#1F609E">
+                                    Unv.
+                                </th>
+                                <th style="color:#1F609E">
+                                    Avg
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <th style="color:#1F609E">UBI:</th>
+                                <td>{{average_paid_hours_part1[0]}}</td>
+                                <td>{{average_paid_hours_part2[0]}}</td>
+                                <td>{{((average_paid_hours_part1[0]+average_paid_hours_part2[0])/2)|int}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <th style="color:#1F609E">WS:</th>
+                                <td>{{average_paid_hours_part1[1]}}</td>
+                                <td>{{average_paid_hours_part2[1]}}</td>
+                                <td>{{((average_paid_hours_part1[1]+average_paid_hours_part2[1])/2)|int}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <th style="color:#1F609E">UBIWS:</th>
+                                <td>{{average_paid_hours_part1[2]}}</td>
+                                <td>{{average_paid_hours_part2[2]}}</td>
+                                <td>{{((average_paid_hours_part1[2]+average_paid_hours_part2[2])/2)|int}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <th style="color:#1F609E">All models: </th>
+                                <td>{{((average_paid_hours_part1[0]+average_paid_hours_part1[1] +
+                                    average_paid_hours_part1[2])/3)|int}}</td>
+                                <td>{{((average_paid_hours_part2[0]+average_paid_hours_part2[1] +
+                                    average_paid_hours_part2[2])/3)|int}}</td>
+                                <td>
+                                    {{(((average_paid_hours_part1[0]+average_paid_hours_part2[0])/2
+                                    + (average_paid_hours_part1[1]+average_paid_hours_part2[1])/2
+                                    +
+                                    (average_paid_hours_part1[2]+average_paid_hours_part2[2])/2)/3)|int}}
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="column is-narrow">
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title is-centered" style="color:#D36480">
+                        Average unpaid work hours
+                    </p>
+                </header>
+                <div class="card-content has-text-centered">
+                    <!-- <div class="content"> -->
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>
+
+                                </th>
+                                <th style="color:#1F609E">
+                                    B.V.
+                                </th>
+                                <th style="color:#1F609E">
+                                    Unv.
+                                </th>
+                                <th style="color:#1F609E">
+                                    Avg
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <th style="color:#1F609E">UBI:</th>
+                                <td>{{average_unpaid_hours_part1[0]}}</td>
+                                <td>{{average_unpaid_hours_part2[0]}}</td>
+                                <td>{{((average_unpaid_hours_part1[0]+average_unpaid_hours_part2[0])/2)|int}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <th style="color:#1F609E">WS:</th>
+                                <td>{{average_unpaid_hours_part1[1]}}</td>
+                                <td>{{average_unpaid_hours_part2[1]}}</td>
+                                <td>{{((average_unpaid_hours_part1[1]+average_unpaid_hours_part2[1])/2)|int}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <th style="color:#1F609E">UBIWS:</th>
+                                <td>{{average_unpaid_hours_part1[2]}}</td>
+                                <td>{{average_unpaid_hours_part2[2]}}</td>
+                                <td>{{((average_unpaid_hours_part1[2]+average_unpaid_hours_part2[2])/2)|int}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <th style="color:#1F609E">All models: </th>
+                                <td>{{((average_unpaid_hours_part1[0]+average_unpaid_hours_part1[1] +
+                                    average_unpaid_hours_part1[2])/3)|int}}</td>
+                                <td>{{((average_unpaid_hours_part2[0]+average_unpaid_hours_part2[1] +
+                                    average_unpaid_hours_part2[2])/3)|int}}</td>
+                                <td>
+                                    {{(((average_unpaid_hours_part1[0]+average_unpaid_hours_part2[0])/2
+                                    + (average_unpaid_hours_part1[1]+average_unpaid_hours_part2[1])/2
+                                    +
+                                    (average_unpaid_hours_part1[2]+average_unpaid_hours_part2[2])/2)/3)|int}}
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="column is-narrow">
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title is-centered" style="color:#D36480">
+                        Average no work hours
+                    </p>
+                </header>
+                <div class="card-content has-text-centered">
+                    <!-- <div class="content"> -->
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>
+
+                                </th>
+                                <th style="color:#1F609E">
+                                    B.V.
+                                </th>
+                                <th style="color:#1F609E">
+                                    Unv.
+                                </th>
+                                <th style="color:#1F609E">
+                                    Avg
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <th style="color:#1F609E">UBI:</th>
+                                <td>{{average_nowork_hours_part1[0]}}</td>
+                                <td>{{average_nowork_hours_part2[0]}}</td>
+                                <td>{{((average_nowork_hours_part1[0]+average_nowork_hours_part2[0])/2)|int}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <th style="color:#1F609E">WS:</th>
+                                <td>{{average_nowork_hours_part1[1]}}</td>
+                                <td>{{average_nowork_hours_part2[1]}}</td>
+                                <td>{{((average_nowork_hours_part1[1]+average_nowork_hours_part2[1])/2)|int}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <th style="color:#1F609E">UBIWS:</th>
+                                <td>{{average_nowork_hours_part1[2]}}</td>
+                                <td>{{average_nowork_hours_part2[2]}}</td>
+                                <td>{{((average_nowork_hours_part1[2]+average_nowork_hours_part2[2])/2)|int}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <th style="color:#1F609E">All models: </th>
+                                <td>{{((average_nowork_hours_part1[0]+average_nowork_hours_part1[1] +
+                                    average_nowork_hours_part1[2])/3)|int}}</td>
+                                <td>{{((average_nowork_hours_part2[0]+average_nowork_hours_part2[1] +
+                                    average_nowork_hours_part2[2])/3)|int}}</td>
+                                <td>
+                                    {{(((average_nowork_hours_part1[0]+average_nowork_hours_part2[0])/2
+                                    + (average_nowork_hours_part1[1]+average_nowork_hours_part2[1])/2
+                                    +
+                                    (average_nowork_hours_part1[2]+average_nowork_hours_part2[2])/2)/3)|int}}
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+        
+    </div>
+</div>
+
+{% endblock %}

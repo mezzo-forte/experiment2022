@@ -1,0 +1,74 @@
+{
+  "Subject": "YSwKjx0j7l",
+  "Country": "Hungary",
+  "Land_income_tier": "high",
+  "Subject_number_tier": 22,
+  "Group_number_for_model": 9,
+  "Group": "high9",
+  "Endowment": 21600,
+  "Model": "UBIWS",
+  "Active_part": 1,
+  "Tasks": {
+    "12": [
+      "Paid",
+      "340",
+      "Incorrect"
+    ],
+    "13": [
+      "Paid",
+      "264",
+      "Correct"
+    ],
+    "14": [
+      "Paid",
+      "294",
+      "Correct"
+    ],
+    "15": [
+      "Unpaid",
+      "Correct"
+    ],
+    "16": [
+      "Unpaid",
+      "Correct"
+    ],
+    "17": [
+      "Unpaid",
+      "Correct"
+    ],
+    "18": [
+      "Unpaid",
+      "Incorrect"
+    ],
+    "19": [
+      "Unpaid",
+      "Correct"
+    ],
+    "20": [
+      "Paid",
+      "264",
+      "Correct"
+    ],
+    "21": [
+      "Paid",
+      "408",
+      "Correct"
+    ],
+    "22": [
+      "Paid",
+      "414",
+      "Correct"
+    ],
+    "23": [
+      "Paid",
+      "371",
+      "Incorrect"
+    ]
+  },
+  "Income_part1": 29600.0,
+  "Income_after_taxation_part1": 46800.0,
+  "Income_part2": 29600.0,
+  "Income_after_taxation_part2": 46800.0,
+  "Total_income": 93600.0,
+  "System_chosen": "1"
+}

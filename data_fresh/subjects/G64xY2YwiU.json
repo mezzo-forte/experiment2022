@@ -1,0 +1,111 @@
+{
+  "Subject": "G64xY2YwiU",
+  "Country": "India",
+  "Land_income_tier": "high",
+  "Subject_number_tier": 6,
+  "Group_number_for_model": 2,
+  "Group": "high2",
+  "Endowment": 700,
+  "Model": "WS",
+  "Active_part": 1,
+  "Constitution": "Majority",
+  "Taxation_system": "Endowment",
+  "Tasks": {
+    "12": [
+      "Paid",
+      "400",
+      "Correct"
+    ],
+    "13": [
+      "Paid",
+      "253",
+      "Incorrect"
+    ],
+    "14": [
+      "Paid",
+      "294",
+      "Correct"
+    ],
+    "15": [
+      "Paid",
+      "375",
+      "Correct"
+    ],
+    "16": [
+      "Paid",
+      "364",
+      "Correct"
+    ],
+    "17": [
+      "Paid",
+      "276",
+      "Correct"
+    ],
+    "18": [
+      "Paid",
+      "312",
+      "Correct"
+    ],
+    "19": [
+      "Paid",
+      "378",
+      "Correct"
+    ],
+    "20": [
+      "Paid",
+      "264",
+      "Correct"
+    ],
+    "21": [
+      "Nowork"
+    ],
+    "22": [
+      "Nowork"
+    ],
+    "23": [
+      "Nowork"
+    ]
+  },
+  "Income_part1": 1800.0,
+  "Income_after_taxation_part1": 2325.0,
+  "Income_part2": 2400.0,
+  "Income_after_taxation_part2": 2925.0,
+  "Total_income": 5250.0,
+  "System_chosen": "2",
+  "Q1": "1",
+  "Q2": "3",
+  "Q3": "1",
+  "Q4": "3",
+  "Q5": "1",
+  "Q6": [
+    ""
+  ],
+  "Q8": [
+    ""
+  ],
+  "Q9": [
+    "4",
+    ""
+  ],
+  "Q11": "3",
+  "Q12": "2",
+  "Q13": "1",
+  "Q14": "2",
+  "Q22": "1",
+  "Q7": "23",
+  "Q15": "2",
+  "Q16": "2",
+  "Q17": "6",
+  "Q18": [
+    "1",
+    ""
+  ],
+  "Q19": "2",
+  "Q20": [
+    "2",
+    "5",
+    "6"
+  ],
+  "Q21": "2",
+  "Comments": ""
+}

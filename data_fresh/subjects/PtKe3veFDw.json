@@ -1,0 +1,117 @@
+{
+  "Subject": "PtKe3veFDw",
+  "Country": "Hungary",
+  "Land_income_tier": "high",
+  "Subject_number_tier": 7,
+  "Group_number_for_model": 2,
+  "Group": "high2",
+  "Endowment": 1100,
+  "Model": "WS",
+  "Active_part": 1,
+  "Constitution": "Majority",
+  "Taxation_system": "Endowment",
+  "Tasks": {
+    "12": [
+      "Paid",
+      "400",
+      "Correct"
+    ],
+    "13": [
+      "Paid",
+      "264",
+      "Correct"
+    ],
+    "14": [
+      "Paid",
+      "294",
+      "Correct"
+    ],
+    "15": [
+      "Paid",
+      "375",
+      "Correct"
+    ],
+    "16": [
+      "Paid",
+      "364",
+      "Correct"
+    ],
+    "17": [
+      "Paid",
+      "276",
+      "Correct"
+    ],
+    "18": [
+      "Paid",
+      "312",
+      "Correct"
+    ],
+    "19": [
+      "Paid",
+      "378",
+      "Correct"
+    ],
+    "20": [
+      "Paid",
+      "264",
+      "Correct"
+    ],
+    "21": [
+      "Paid",
+      "408",
+      "Correct"
+    ],
+    "22": [
+      "Paid",
+      "414",
+      "Correct"
+    ],
+    "23": [
+      "Paid",
+      "378",
+      "Correct"
+    ]
+  },
+  "Income_part1": 3300.0,
+  "Income_after_taxation_part1": 4125.0,
+  "Income_part2": 3300.0,
+  "Income_after_taxation_part2": 4425.0,
+  "Total_income": 8550.0,
+  "System_chosen": "2",
+  "Q1": "1",
+  "Q2": "2",
+  "Q3": "1",
+  "Q4": "2",
+  "Q5": "2",
+  "Q6": [
+    "2",
+    ""
+  ],
+  "Q7": "4",
+  "Q8": [
+    ""
+  ],
+  "Q9": [
+    ""
+  ],
+  "Q10": "2",
+  "Q11": "2",
+  "Q12": "2",
+  "Q13": "1",
+  "Q14": "2",
+  "Q22": "3",
+  "Q15": "2",
+  "Q16": "1",
+  "Q17": "5",
+  "Q18": [
+    "1",
+    ""
+  ],
+  "Q19": "1",
+  "Q20": [
+    "2",
+    "3"
+  ],
+  "Q21": "3",
+  "Comments": ""
+}

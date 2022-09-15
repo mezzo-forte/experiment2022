@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}Voting results{% endblock %}
+{% block content %}
+
+
+    <p style="color:dodgerblue"><b>Results of the voting:</b></p>
+<br>
+<br>
+
+<p>
+{% if stage=="Constitutional" %}
+The further decisions applied to the whole society will be chosen by <b>{{voted}}</b>
+<br><br> Now you will need to chose the taxation system for your society
+</p>
+
+<br><br>
+<br><br>
+
+<div class="buttons">
+    <a href="/tax" class="button is-info">To voting!</a>
+</div>
+
+{% elif stage=="Taxation" %}
+The taxation system chosen: <b style="color:lightseagreen">{{voted}} tax </b>
+
+<br><br>
+<br><br>
+<!-- 
+    <form method='POST'>
+        <button type="submit" name="taskchoice" class="button is-primary">To tasks!</button>
+    </form> -->
+    <div class="buttons">
+        <a href="/taskchoice" class="button is-info">To tasks!</a>
+    </div>
+    {% endif %}
+
+</p>
+{% endblock %}

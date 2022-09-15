@@ -1,0 +1,118 @@
+{
+  "Subject": "e2QrxWcdCF",
+  "Country": "Russian Federation",
+  "Land_income_tier": "high",
+  "Subject_number_tier": 4,
+  "Group_number_for_model": 1,
+  "Group": "high1",
+  "Endowment": 200,
+  "Model": "UBI",
+  "Active_part": 1,
+  "Constitution": "Majority",
+  "Taxation_system": "Income",
+  "Tasks": {
+    "12": [
+      "Paid",
+      "400",
+      "Correct"
+    ],
+    "13": [
+      "Paid",
+      "264",
+      "Correct"
+    ],
+    "14": [
+      "Paid",
+      "294",
+      "Correct"
+    ],
+    "15": [
+      "Paid",
+      "375",
+      "Correct"
+    ],
+    "16": [
+      "Paid",
+      "364",
+      "Correct"
+    ],
+    "17": [
+      "Paid",
+      "276",
+      "Correct"
+    ],
+    "18": [
+      "Paid",
+      "312",
+      "Correct"
+    ],
+    "19": [
+      "Paid",
+      "378",
+      "Correct"
+    ],
+    "20": [
+      "Paid",
+      "264",
+      "Correct"
+    ],
+    "21": [
+      "Paid",
+      "408",
+      "Correct"
+    ],
+    "22": [
+      "Unpaid",
+      "Incorrect"
+    ],
+    "23": [
+      "Nowork"
+    ]
+  },
+  "Income_part1": 2900,
+  "Income_after_taxation_part1": 2900.0,
+  "Income_part2": 3100,
+  "Income_after_taxation_part2": 2900.0,
+  "Total_income": 5800.0,
+  "System_chosen": "1",
+  "Q1": "1",
+  "Q2": "3",
+  "Q3": "1",
+  "Q4": "2",
+  "Q5": "1",
+  "Q6": [
+    "3",
+    ""
+  ],
+  "Q7": "4",
+  "Q8": [
+    "3",
+    "5",
+    ""
+  ],
+  "Q9": [
+    "4",
+    "6",
+    ""
+  ],
+  "Q10": "2",
+  "Q11": "3",
+  "Q12": "2",
+  "Q13": "2",
+  "Q14": "2",
+  "Q22": "2",
+  "Q15": "1",
+  "Q16": "9",
+  "Q17": "6",
+  "Q18": [
+    "1",
+    ""
+  ],
+  "Q19": "2",
+  "Q20": [
+    "2",
+    "3"
+  ],
+  "Q21": "2",
+  "Comments": "Probably during the first question where it was written \"/vote\" don't show the question before. It was confusion at the very beginning like \" should I write it in a chat or how is it working\". Probably that is why it was long at the beginning to get all votes from all participants. "
+}

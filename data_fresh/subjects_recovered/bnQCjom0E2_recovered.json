@@ -1,0 +1,94 @@
+{
+  "Active_part": 2,
+  "Answer_given": "414",
+  "Constitution": "Majority",
+  "Correct_part1": 7,
+  "Correct_part2": 6,
+  "Country": "China",
+  "Current_task_content": "18 * 23",
+  "Current_task_correct_answer": "414",
+  "Current_task_id": 23,
+  "Current_task_options": [
+    "Japan",
+    "Greece"
+  ],
+  "Endowment": 1800,
+  "Finished": "True",
+  "First_time_entering": "True",
+  "Group": "high3",
+  "Group_number_for_model": 3,
+  "Income_after_taxation_part1": 3800.0,
+  "Income_after_taxation_part2": 3600.0,
+  "Income_current": 2050.0,
+  "Income_part1": 2300.0,
+  "Income_part2": 2050.0,
+  "Land_income_tier": "high",
+  "Last_task": "Correct",
+  "Model": "UBIWS",
+  "No_work_part1": 2,
+  "No_work_part2": 3,
+  "Number_in_group": 3,
+  "Paid_work_part1": 7,
+  "Paid_work_part2": 6,
+  "Questionnaire": {
+    "Comments": "Why should we wait for our partners\r\nthe voting process is kind of studpid",
+    "Q1": "2",
+    "Q10": "2",
+    "Q11": "3",
+    "Q12": "2",
+    "Q13": "1",
+    "Q14": "2",
+    "Q15": "2",
+    "Q16": "1",
+    "Q17": "6",
+    "Q18": "1",
+    "Q19": "1",
+    "Q2": "7",
+    "Q20": "2",
+    "Q21": "2",
+    "Q22": "3",
+    "Q3": "2",
+    "Q4": "2",
+    "Q5": "4",
+    "Q6": "3",
+    "Q7": "4",
+    "Q8": "",
+    "Q9": ""
+  },
+  "Questionnaire_list": {
+    "": "",
+    "Q18": [
+      "1",
+      ""
+    ],
+    "Q20": [
+      "2"
+    ],
+    "Q6": [
+      "3",
+      ""
+    ],
+    "Q8": [
+      ""
+    ],
+    "Q9": [
+      ""
+    ]
+  },
+  "Revote": "False",
+  "Stage": "Taxation",
+  "Subject": "bnQCjom0E2",
+  "Subject_number_overall": 13,
+  "Subject_number_tier": 13,
+  "System_choice": "True",
+  "System_chosen": "2",
+  "Task_type": "Nowork",
+  "Taxation_system": "Income",
+  "Total_income": 7400.0,
+  "Unpaid_work_part1": 3,
+  "Unpaid_work_part2": 3,
+  "Voted_for_constitution": "Majority",
+  "Voted_for_taxation": "Income",
+  "Work_units_part1": 12,
+  "Work_units_part2": 12
+}

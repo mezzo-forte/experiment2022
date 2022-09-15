@@ -1,0 +1,72 @@
+{
+  "Subject": "6hmaq5CDhT",
+  "Country": "Italy",
+  "Land_income_tier": "high",
+  "Subject_number_tier": 23,
+  "Group_number_for_model": 9,
+  "Group": "high9",
+  "Endowment": 22800,
+  "Model": "UBIWS",
+  "Active_part": 1,
+  "Taxation_system": "Income_tax",
+  "Voted_for": "1",
+  "Tasks": {
+    "12": [
+      "Unpaid",
+      "Incorrect"
+    ],
+    "13": [
+      "Paid",
+      "264",
+      "Correct"
+    ],
+    "14": [
+      "Paid",
+      "294",
+      "Correct"
+    ],
+    "15": [
+      "Unpaid",
+      "Correct"
+    ],
+    "16": [
+      "Nowork"
+    ],
+    "17": [
+      "Paid",
+      "276",
+      "Correct"
+    ],
+    "18": [
+      "Unpaid",
+      "Correct"
+    ],
+    "19": [
+      "Paid",
+      "448",
+      "Incorrect"
+    ],
+    "20": [
+      "Unpaid",
+      "Correct"
+    ],
+    "21": [
+      "Paid",
+      "408",
+      "Correct"
+    ],
+    "22": [
+      "Unpaid",
+      "Correct"
+    ],
+    "23": [
+      "Nowork"
+    ]
+  },
+  "Income_part1": 20400.0,
+  "Income_after_taxation_part1": 40800.0,
+  "Income_part2": 25000.0,
+  "Income_after_taxation_part2": 44400.0,
+  "Total_income": 85200.0,
+  "System_chosen": "1"
+}

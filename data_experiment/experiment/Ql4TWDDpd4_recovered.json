@@ -1,0 +1,64 @@
+{
+  "Active_part": 2,
+  "Answer_given": "338",
+  "Correct_part1": 3,
+  "Correct_part2": 0,
+  "Country": "Aruba",
+  "Current_task_content": "Which is the largest organ in human body?",
+  "Current_task_correct_answer": "360",
+  "Current_task_id": 23,
+  "Current_task_options": [
+    "skin",
+    "lungs"
+  ],
+  "Endowment": 16300,
+  "Finished": "True",
+  "First_time_entering": "True",
+  "Group": "high8",
+  "Group_number_for_model": 8,
+  "Income_after_taxation_part1": 27825.0,
+  "Income_after_taxation_part2": 12225.0,
+  "Income_current": 0.0,
+  "Income_part1": 15600.0,
+  "Income_part2": 0.0,
+  "Land_income_tier": "high",
+  "Last_task": "Incorrect",
+  "Model": "WS",
+  "No_work_part1": 0,
+  "No_work_part2": 5,
+  "Paid_work_part1": 4,
+  "Paid_work_part2": 0,
+  "Subject": "Ql4TWDDpd4",
+  "Subject_number_overall": 19,
+  "Subject_number_tier": 19,
+  "System_choice": "True",
+  "System_chosen": "1",
+  "Task_type": "Nowork",
+  "Taxation_system": "Endowment_tax",
+  "Total_income": 40050.0,
+  "Unpaid_work_part1": 8,
+  "Unpaid_work_part2": 7,
+  "Voted": "True",
+  "Voted_for": "1",
+  "Work_units_part1": 12,
+  "Work_units_part2": 12,
+  "Questionnaire": {},
+  "Q1": "1",
+  "Q2": "1",
+  "Q6": [
+    ""
+  ],
+  "Q8": [
+    ""
+  ],
+  "Q9": [
+    ""
+  ],
+  "Q7": "",
+  "Q18": [
+    ""
+  ],
+  "Comments": "cow moo moo",
+  "Email": "",
+  "Q20": []
+}

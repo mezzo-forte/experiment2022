@@ -1,0 +1,72 @@
+
+{% extends "base.html" %}
+{% block title %}Task Choice {% endblock %}
+
+{% block content %}
+
+
+{% if task_type=="Paid" %} 
+
+    {% if last_task=="Correct" %}
+        <p style="color:limegreen; font-weight:bold">Correct!</p>
+        <p>You have earned income!</p>
+    {% elif last_task == "Incorrect" %}
+        <p style="color:orangered; font-weight:bold">Incorrect!</p>
+        <p>You would not receive any wage for this task!</p>
+    {% endif %}
+
+{% elif task_type=="Unpaid" %}
+    
+    {% if last_task=="Correct" %}
+        <p style="color:limegreen; font-weight:bold">Correct!</p>
+        <p>Your earned income remains unchanged!</p>
+    {% elif last_task == "Incorrect" %}
+        <p style="color:orangered; font-weight:bold">Incorrect!</p>
+        <p>It still does not affect your income!</p>
+    {% endif %}
+
+{% endif %}
+
+<br>
+<p>Your income from work: <b>{{ income }}</b></p>
+
+<p>Your current endowment: {% if part_started == 1 %}
+    yet unknown
+    {% elif part_started == 2 %}
+    {{endowment}}{% endif %}</p>
+
+{% if part_started== 2 %}
+<p>Your total income after taxation: {{ income_after_tax }} </p>
+{% endif %}
+
+    <p>You have {{total_work_units - current_work_units}} work units left to distribute!</p>
+<br>    
+<p><b>What would you like to do?</b></p>
+
+
+<br><br>I would like to choose: 
+<br><br>
+
+
+<form method='POST'>
+    <input class="button is-info" name="Paid" value="Paid work" type="submit">
+    <input class="button is-info" name="Unpaid" value="Unpaid work" type="submit">
+    <input class="button is-info" name="Nowork" value="No work" type="submit">
+</form>
+
+
+{% endblock %}
+
+
+{% if session.Model =="UBIWS" %}
+<div class="buttons">
+    <a href="/taskchoice" class="button is-success">Start</a>
+</div>
+
+{% else %}
+
+<p>
+    <b>You can no longer switch between the tasks because you have already exhausted your three chances to switch between the types of tasks.</b>
+</p>
+
+{% endif %}

@@ -1,0 +1,65 @@
+{
+  "Subject": "S4BmKnChA5",
+  "Country": "Germany",
+  "Land_income_tier": "high",
+  "Subject_number_tier": 39,
+  "Group_number_for_model": 14,
+  "Group": "high14",
+  "Endowment": 33200,
+  "Model": "WS",
+  "Active_part": 1,
+  "Voted_for": "2",
+  "Taxation_system": "Endowment_tax",
+  "Tasks": {
+    "12": [
+      "Nowork"
+    ],
+    "13": [
+      "Nowork"
+    ],
+    "14": [
+      "Nowork"
+    ],
+    "15": [
+      "Nowork"
+    ],
+    "16": [
+      "Nowork"
+    ],
+    "17": [
+      "Nowork"
+    ],
+    "18": [
+      "Paid",
+      "312",
+      "Correct"
+    ],
+    "19": [
+      "Paid",
+      "378",
+      "Correct"
+    ],
+    "20": [
+      "Unpaid",
+      "Correct"
+    ],
+    "21": [
+      "Unpaid",
+      "Incorrect"
+    ],
+    "22": [
+      "Unpaid",
+      "Correct"
+    ],
+    "23": [
+      "Unpaid",
+      "Incorrect"
+    ]
+  },
+  "Income_part1": 0.0,
+  "Income_after_taxation_part1": 24900.0,
+  "Income_part2": 10400.0,
+  "Income_after_taxation_part2": 35300.0,
+  "Total_income": 60200.0,
+  "System_chosen": "2"
+}

@@ -1,0 +1,71 @@
+{
+  "Subject": "5vItlBFc4C",
+  "Country": "Colombia",
+  "Land_income_tier": "high",
+  "Subject_number_tier": 13,
+  "Group_number_for_model": 5,
+  "Group": "high5",
+  "Endowment": 7100,
+  "Model": "WS",
+  "Active_part": 1,
+  "Taxation_system": "Income_tax",
+  "Tasks": {
+    "12": [
+      "Paid",
+      "300",
+      "Incorrect"
+    ],
+    "13": [
+      "Paid",
+      "264",
+      "Correct"
+    ],
+    "14": [
+      "Paid",
+      "294",
+      "Correct"
+    ],
+    "15": [
+      "Unpaid",
+      "Correct"
+    ],
+    "16": [
+      "Unpaid",
+      "Incorrect"
+    ],
+    "17": [
+      "Unpaid",
+      "Correct"
+    ],
+    "18": [
+      "Unpaid",
+      "Correct"
+    ],
+    "19": [
+      "Unpaid",
+      "Incorrect"
+    ],
+    "20": [
+      "Unpaid",
+      "Incorrect"
+    ],
+    "21": [
+      "Unpaid",
+      "Correct"
+    ],
+    "22": [
+      "Nowork"
+    ],
+    "23": [
+      "Paid",
+      "378",
+      "Correct"
+    ]
+  },
+  "Income_part1": 20800.0,
+  "Income_after_taxation_part1": 28100.0,
+  "Income_part2": 10400.0,
+  "Income_after_taxation_part2": 19700.0,
+  "Total_income": 47800.0,
+  "System_chosen": "1"
+}

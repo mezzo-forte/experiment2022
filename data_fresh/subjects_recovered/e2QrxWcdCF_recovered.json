@@ -1,0 +1,99 @@
+{
+  "Active_part": 2,
+  "Answer_given": "408",
+  "Constitution": "Majority",
+  "Correct_part1": 10,
+  "Correct_part2": 10,
+  "Country": "Russian Federation",
+  "Current_task_content": "How long is the world's longest french fry?",
+  "Current_task_correct_answer": "408",
+  "Current_task_id": 23,
+  "Current_task_options": [
+    "40 inches",
+    "34 inches"
+  ],
+  "Endowment": 200,
+  "Finished": "True",
+  "First_time_entering": "True",
+  "Group": "high1",
+  "Group_number_for_model": 1,
+  "Income_after_taxation_part1": 2900.0,
+  "Income_after_taxation_part2": 2900.0,
+  "Income_current": 3100,
+  "Income_part1": 2900,
+  "Income_part2": 3100,
+  "Land_income_tier": "high",
+  "Last_task": "Incorrect",
+  "Model": "UBI",
+  "No_work_part1": 1,
+  "No_work_part2": 1,
+  "Number_in_group": 4,
+  "Paid_work_part1": 10,
+  "Paid_work_part2": 10,
+  "Questionnaire": {
+    "Comments": "Probably during the first question where it was written \"/vote\" don't show the question before. It was confusion at the very beginning like \" should I write it in a chat or how is it working\". Probably that is why it was long at the beginning to get all votes from all participants. ",
+    "Q1": "1",
+    "Q10": "2",
+    "Q11": "3",
+    "Q12": "2",
+    "Q13": "2",
+    "Q14": "2",
+    "Q15": "1",
+    "Q16": "9",
+    "Q17": "6",
+    "Q18": "1",
+    "Q19": "2",
+    "Q2": "3",
+    "Q20": "2",
+    "Q21": "2",
+    "Q22": "2",
+    "Q3": "1",
+    "Q4": "2",
+    "Q5": "1",
+    "Q6": "3",
+    "Q7": "4",
+    "Q8": "3",
+    "Q9": "4"
+  },
+  "Questionnaire_list": {
+    "": "",
+    "Q18": [
+      "1",
+      ""
+    ],
+    "Q20": [
+      "2",
+      "3"
+    ],
+    "Q6": [
+      "3",
+      ""
+    ],
+    "Q8": [
+      "3",
+      "5",
+      ""
+    ],
+    "Q9": [
+      "4",
+      "6",
+      ""
+    ]
+  },
+  "Revote": "False",
+  "Stage": "Taxation",
+  "Subject": "e2QrxWcdCF",
+  "Subject_number_overall": 4,
+  "Subject_number_tier": 4,
+  "System_choice": "True",
+  "System_chosen": "1",
+  "Task_type": "Nowork",
+  "Taxation_system": "Income",
+  "Total_income": 5800.0,
+  "Unpaid_work_part1": 1,
+  "Unpaid_work_part2": 1,
+  "Voted_for_constitution": "Majority",
+  "Voted_for_taxation": "Income",
+  "Work_units_part1": 12,
+  "Work_units_part2": 12
+}

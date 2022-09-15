@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Experiment 2022 {% endblock %}
+{% block content %}
+
+
+<div class="container is-fluid">
+    <p><b>Task {{ current_work_units }}/{{ total_work_units }}</b></p>
+    <br>
+    <p> Answer the following: </p>
+    <br>
+    {{task_content}}
+    <br><br>
+    <form method='POST'>
+        {% for i in range(task_content_options| length) %}
+        <button type="submit" name="trivia_answer" class="button is-primary is-roundedц"
+            value="{{i}}">{{task_content_options[i]}}</button>
+        {% endfor %}
+    </form>
+
+
+    <br>
+    
+</div>
+
+
+{% endblock %}

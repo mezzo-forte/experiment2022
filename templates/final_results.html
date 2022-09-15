@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Final results{% endblock %}
+{% block content %}
+
+
+    <p style="color:dodgerblue"><b>Final results</b></p>
+<br>
+<br>
+<p>You have successfully coped with all the tasks!</p>
+
+<p>Your earned income in part2: <b>{{ income }}</b> </p>
+<p>Your endowment: {% if part_started == 1 %}
+    yet unknown
+    {% elif part_started == 2 %}
+    {{endowment}}{% endif %}</p>
+<p>Taxation system: {{tax_system}}</p>
+<p>Your income after taxation in part 2: {{income_after_tax}}</p>
+
+<p>Your income after taxation in part 1: {{income_after_tax_part1}}</p>
+
+<p><b>Your total income after two rounds: {{total_income}}</b></p>
+
+
+<br><br>
+<form method='POST'>
+    <button type="submit" name="to_next_part" class="button is-primary"
+        value="Finished">Proceed</button>
+</form>
+<!-- 
+    <div class="buttons">
+        <a href="/model2" class="button is-info">Next</a>
+    </div> -->
+
+ 
+
+{% endblock %}

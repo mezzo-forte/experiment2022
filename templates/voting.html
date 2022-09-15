@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+{% block title %}Voting{% endblock %}
+{% block content %}
+
+<br>
+<p>Your earned income: <b>{{income}}</b></p>
+<p>Your current endowment: {% if part_started == 1 %}
+    <b>yet unknown</b>
+    {% elif part_started == 2 %}
+    <b>{{endowment}}</b>{% endif %}</p>
+    <br>
+    <p style="color:dodgerblue">
+<br>
+
+{% if stage == "Constitutional" %}
+<p style="color:dodgerblue">
+    <br>
+    <b>Which voting principle would you like to apply?</b>
+</p>
+
+<br>
+
+<form class="field" id="voting_form">
+    <form class="field" id="">
+    <div class="control">
+        <label class="radio">
+            <input type="radio" name="Constitutional" value="Majority">
+            Choosing rules applied to your society by simple majority (>50%)
+        </label>
+    </div>
+    <br>
+    <div class="control">
+        <label class="radio">
+            <input type="radio" name="Constitutional" value="Unanimity">
+            Choosing rules for your society by unanimous voting (100%)
+        </label>
+    </div>
+    
+    <br>
+    <div class="control">
+        <input type="submit" class="button is-primary" value="Vote">
+    </div>
+</form>
+{% elif stage=="Taxation" %}
+          
+<p style="color:dodgerblue">
+    <br>
+    <b>Please vote for a taxation system?</b>
+</p>
+
+<br>
+
+<form class="field" id="voting_form">
+    <div class="control">
+        <label class="radio">
+            <input type="radio" name="Taxation" value="Income">
+            Taxing income only (tax rate = 25%) - tax will be calculated based on your income earned through your paid work by successfully completing tasks
+        </label>
+    </div>
+    <br>
+    <div class="control">
+        <label class="radio">
+            <input type="radio" name="Taxation" value="Endowment">
+            Taxing endowment only (tax rate = 25%) - tax will be calculated based on your inherited income (endowment), any amount of endowment would be randomly assigned to you and other participants in your group
+        </label>
+    </div>
+    
+    <br>
+    <div class="control">
+        <input type="submit" class="button is-primary" value="Vote">
+    </div>
+</form>
+{% endif %}
+
+<br>
+<p> <i>The taxation system will be applied based on the decision of the majority</i>
+    
+</p>
+
+<script src= "https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.0/socket.io.min.js"></script>
+
+<script>
+    const socket = io.connect('https://experiment.socolab.online');
+    socket.on('connect', () => {
+        socket.send("user {{ user }} joined the voting!");
+        socket.emit('join_room', {
+            username: "{{ username }}",
+            room: "{{ room }}_voting"
+        });
+        
+        /* setMessageEvent() */
+        handleVotingEvent();
+    }); 
+    
+    handleVotingEvent = () => {
+        document.getElementById('voting_form').onsubmit = function () {
+            voted = document.querySelector('input[name={{stage}}]:checked').value;
+            socket.emit('voting_register', {
+                username: "{{username}}",
+                user: "{{user}}",
+                room: "{{ room }}_voting",
+                stage: "{{stage}}",
+                voted: voted
+            })
+        }
+    }
+
+    socket.on('redirect_to_chat', () => {
+        
+        window.location.replace('/chat');
+    })
+    socket.on('redirect_to_next', (data) => {
+        socket.emit('setting_voting_var', data);
+        window.location.replace('/voting_results');
+    })
+</script>
+
+{% endblock %}

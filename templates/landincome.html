@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}Land Choice{% endblock %}
+{% block content %}
+
+<p><b>Please choose your country</b></p>
+    <br>
+
+<p>To proceed please choose a country, where you've been living most of your life:
+
+</p>
+<br>
+
+<form method='POST'>
+    <!-- <label class ="">Your country:</label> -->
+    <div class="field is-horizontal">
+    <div class="control has-icons-left">
+    <div class = "select is-link">
+    <select name="country">
+      <option selected>Your country</option>
+        {% for i in countries %}
+      <option value="{{i}}">{{i}}</option>
+      {% endfor %}
+    </select>
+   
+</div>
+<input type="submit" class="button is-primary" value="Submit">
+<span class="icon is-left">
+    <ion-icon name="earth"></ion-icon>
+  </span>
+    </div>
+</div>
+    <!-- <input type="submit" class="button is-primary" value="Submit"> -->
+</form>
+
+
+
+
+
+{% endblock %}

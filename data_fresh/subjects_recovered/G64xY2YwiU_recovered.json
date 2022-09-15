@@ -1,0 +1,91 @@
+{
+  "Active_part": 2,
+  "Answer_given": "264",
+  "Constitution": "Majority",
+  "Correct_part1": 6,
+  "Correct_part2": 8,
+  "Country": "India",
+  "Current_task_content": "12 * 22",
+  "Current_task_correct_answer": "264",
+  "Current_task_id": 23,
+  "Endowment": 700,
+  "Finished": "True",
+  "First_time_entering": "True",
+  "Group": "high2",
+  "Group_number_for_model": 2,
+  "Income_after_taxation_part1": 2325.0,
+  "Income_after_taxation_part2": 2925.0,
+  "Income_current": 2400.0,
+  "Income_part1": 1800.0,
+  "Income_part2": 2400.0,
+  "Land_income_tier": "high",
+  "Last_task": "Correct",
+  "Model": "WS",
+  "No_work_part1": 6,
+  "No_work_part2": 3,
+  "Number_in_group": 1,
+  "Paid_work_part1": 6,
+  "Paid_work_part2": 9,
+  "Questionnaire": {
+    "Comments": "",
+    "Q1": "1",
+    "Q11": "3",
+    "Q12": "2",
+    "Q13": "1",
+    "Q14": "2",
+    "Q15": "2",
+    "Q16": "2",
+    "Q17": "6",
+    "Q18": "1",
+    "Q19": "2",
+    "Q2": "3",
+    "Q20": "2",
+    "Q21": "2",
+    "Q22": "1",
+    "Q3": "1",
+    "Q4": "3",
+    "Q5": "1",
+    "Q6": "",
+    "Q7": "23",
+    "Q8": "",
+    "Q9": "4"
+  },
+  "Questionnaire_list": {
+    "": "",
+    "Q18": [
+      "1",
+      ""
+    ],
+    "Q20": [
+      "2",
+      "5",
+      "6"
+    ],
+    "Q6": [
+      ""
+    ],
+    "Q8": [
+      ""
+    ],
+    "Q9": [
+      "4",
+      ""
+    ]
+  },
+  "Revote": "False",
+  "Stage": "Taxation",
+  "Subject": "G64xY2YwiU",
+  "Subject_number_overall": 6,
+  "Subject_number_tier": 6,
+  "System_choice": "True",
+  "System_chosen": "2",
+  "Task_type": "Nowork",
+  "Taxation_system": "Endowment",
+  "Total_income": 5250.0,
+  "Unpaid_work_part1": 0,
+  "Unpaid_work_part2": 0,
+  "Voted_for_constitution": "Majority",
+  "Voted_for_taxation": "Endowment",
+  "Work_units_part1": 12,
+  "Work_units_part2": 12
+}

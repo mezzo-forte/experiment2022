@@ -1,0 +1,107 @@
+{
+  "Subject": "bnQCjom0E2",
+  "Country": "China",
+  "Land_income_tier": "high",
+  "Subject_number_tier": 13,
+  "Group_number_for_model": 3,
+  "Group": "high3",
+  "Endowment": 1800,
+  "Model": "UBIWS",
+  "Active_part": 1,
+  "Constitution": "Majority",
+  "Taxation_system": "Income",
+  "Tasks": {
+    "12": [
+      "Paid",
+      "400",
+      "Correct"
+    ],
+    "13": [
+      "Paid",
+      "264",
+      "Correct"
+    ],
+    "14": [
+      "Paid",
+      "294",
+      "Correct"
+    ],
+    "15": [
+      "Unpaid",
+      "Correct"
+    ],
+    "16": [
+      "Nowork"
+    ],
+    "17": [
+      "Nowork"
+    ],
+    "18": [
+      "Paid",
+      "312",
+      "Correct"
+    ],
+    "19": [
+      "Paid",
+      "378",
+      "Correct"
+    ],
+    "20": [
+      "Unpaid",
+      "Correct"
+    ],
+    "21": [
+      "Unpaid",
+      "Correct"
+    ],
+    "22": [
+      "Paid",
+      "414",
+      "Correct"
+    ],
+    "23": [
+      "Nowork"
+    ]
+  },
+  "Income_part1": 2300.0,
+  "Income_after_taxation_part1": 3800.0,
+  "Income_part2": 2050.0,
+  "Income_after_taxation_part2": 3600.0,
+  "Total_income": 7400.0,
+  "System_chosen": "2",
+  "Q1": "2",
+  "Q2": "7",
+  "Q3": "2",
+  "Q4": "2",
+  "Q5": "4",
+  "Q6": [
+    "3",
+    ""
+  ],
+  "Q7": "4",
+  "Q8": [
+    ""
+  ],
+  "Q9": [
+    ""
+  ],
+  "Q10": "2",
+  "Q11": "3",
+  "Q12": "2",
+  "Q13": "1",
+  "Q14": "2",
+  "Q22": "3",
+  "Q15": "2",
+  "Q16": "1",
+  "Q17": "6",
+  "Q18": [
+    "1",
+    ""
+  ],
+  "Q19": "1",
+  "Q20": [
+    "2"
+  ],
+  "Q21": "2",
+  "Comments": "Why should we wait for our partners\r\nthe voting process is kind of studpid"
+}

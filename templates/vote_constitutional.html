@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}Voting{% endblock %}
+{% block content %}
+
+<br>
+<p>Your earned income: <b>{{income}}</b></p>
+<p>Your current endowment: {% if part_started == 1 %}
+    <b>yet unknown</b>
+    {% elif part_started == 2 %}
+    <b>{{endowment}}</b>{% endif %}</p>
+    <br>
+
+<p style="color:dodgerblue">
+    <br>
+    <b>Which voting principle would you like to apply?</b>
+</p>
+
+<br>
+
+<form class="field" id="voting_form" method="POST">
+    <form class="field" id="">
+    <div class="control">
+        <label class="radio">
+            <input type="radio" name="Constitutional" value="Majority">
+            Choosing rules applied to your society by simple majority (>50%)
+        </label>
+    </div>
+    <br>
+    <div class="control">
+        <label class="radio">
+            <input type="radio" name="Constitutional" value="Unanimity">
+            Choosing rules for your society by unanimous voting (100%)
+        </label>
+    </div>
+    
+    <br>
+    <div class="control">
+        <input type="submit" class="button is-primary" value="Vote">
+    </div>
+</form>
+
+
+{% endblock %}

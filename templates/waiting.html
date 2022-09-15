@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Waiting {% endblock %}
+{% block content %}
+
+    <p style="color:dodgerblue">
+               
+          <b>Voting in progress.. Please wait! The experiment will continue automatically</b></p>
+    <br>
+          <p>
+        <progress class="progress is-medium is-info" max="100"></progress>
+    </p>
+    
+          <br><br>
+
+<script> window.location.replace('/vote_counter'); </script>
+
+{% endblock %}

@@ -1,0 +1,82 @@
+[
+  {
+    "Subject": "G64xY2YwiU",
+    "Username": "Player 1 ",
+    "Room": "high2",
+    "Message_time": "14:07:15",
+    "Message": "Voting by majority",
+    "Stage": "Constitutional"
+  },
+  {
+    "Subject": "G64xY2YwiU",
+    "Username": "Player 1 ",
+    "Room": "high2",
+    "Message_time": "14:07:56",
+    "Message": "\"/vote\"",
+    "Stage": "Constitutional"
+  },
+  {
+    "Subject": "G64xY2YwiU",
+    "Username": "Player 1 ",
+    "Room": "high2",
+    "Message_time": "14:08:22",
+    "Message": "\"/vote\"",
+    "Stage": "Constitutional"
+  },
+  {
+    "Subject": "PtKe3veFDw",
+    "Username": "Player 2 ",
+    "Room": "high2",
+    "Message_time": "14:08:46",
+    "Message": "\"/vote\"",
+    "Stage": "Constitutional"
+  },
+  {
+    "Subject": "6S4Elq89uf",
+    "Username": "Player 3 ",
+    "Room": "high2",
+    "Message_time": "14:08:48",
+    "Message": "\"/vote\"",
+    "Stage": "Constitutional"
+  },
+  {
+    "Subject": "6S4Elq89uf",
+    "Username": "Player 3 ",
+    "Room": "high2",
+    "Message_time": "14:09:34",
+    "Message": "Voting by majority",
+    "Stage": "Constitutional"
+  },
+  {
+    "Subject": "579LAH7Xkv",
+    "Username": "Player 5 ",
+    "Room": "high2",
+    "Message_time": "14:12:10",
+    "Message": "\"/vote\"",
+    "Stage": "Constitutional"
+  },
+  {
+    "Subject": "579LAH7Xkv",
+    "Username": "Player 5 ",
+    "Room": "high2",
+    "Message_time": "14:12:55",
+    "Message": "\"/vote\"",
+    "Stage": "Constitutional"
+  },
+  {
+    "Subject": "PtKe3veFDw",
+    "Username": "Player 2 ",
+    "Room": "high2",
+    "Message_time": "14:20:24",
+    "Message": "you need to type /vote",
+    "Stage": "Constitutional"
+  },
+  {
+    "Subject": "PtKe3veFDw",
+    "Username": "Player 2 ",
+    "Room": "high2",
+    "Message_time": "14:20:31",
+    "Message": "not \"/vote\"",
+    "Stage": "Constitutional"
+  }
+]

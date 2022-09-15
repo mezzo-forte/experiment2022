@@ -1,0 +1,91 @@
+{
+  "Active_part": 2,
+  "Constitution": "Unanimity",
+  "Correct_part1": 0,
+  "Correct_part2": 0,
+  "Country": "Romania",
+  "Current_task_content": "How many bones does the human body have?",
+  "Current_task_id": 23,
+  "Current_task_options": [
+    "206",
+    "276"
+  ],
+  "Endowment": 2000,
+  "Finished": "True",
+  "First_time_entering": "True",
+  "Group": "high1",
+  "Group_number_for_model": 1,
+  "Income_after_taxation_part1": 3200.0,
+  "Income_after_taxation_part2": 3200.0,
+  "Income_current": 1100,
+  "Income_part1": 1100,
+  "Income_part2": 1100,
+  "Land_income_tier": "high",
+  "Last_task": "Correct",
+  "Model": "UBI",
+  "No_work_part1": 1,
+  "No_work_part2": 0,
+  "Number_in_group": 3,
+  "Paid_work_part1": 0,
+  "Paid_work_part2": 0,
+  "Questionnaire": {
+    "Comments": "",
+    "Q1": "1",
+    "Q10": "3",
+    "Q11": "1",
+    "Q12": "1",
+    "Q13": "1",
+    "Q14": "1",
+    "Q15": "1",
+    "Q16": "1",
+    "Q17": "5",
+    "Q18": "Finance",
+    "Q19": "1",
+    "Q2": "2",
+    "Q20": "1",
+    "Q21": "2",
+    "Q22": "1",
+    "Q3": "2",
+    "Q4": "7",
+    "Q5": "1",
+    "Q6": "N/A",
+    "Q7": "25",
+    "Q8": "3",
+    "Q9": "N/A"
+  },
+  "Questionnaire_list": {
+    "": "",
+    "Q18": [
+      "Finance"
+    ],
+    "Q20": [
+      "1"
+    ],
+    "Q6": [
+      "N/A"
+    ],
+    "Q8": [
+      "3",
+      ""
+    ],
+    "Q9": [
+      "N/A"
+    ]
+  },
+  "Revote": "False",
+  "Stage": "Taxation",
+  "Subject": "3eEjEbgISX",
+  "Subject_number_overall": 3,
+  "Subject_number_tier": 3,
+  "System_choice": "True",
+  "System_chosen": "1",
+  "Task_type": "Unpaid",
+  "Taxation_system": "Income",
+  "Total_income": 6400.0,
+  "Unpaid_work_part1": 11,
+  "Unpaid_work_part2": 12,
+  "Voted_for_constitution": "Unanimity",
+  "Voted_for_taxation": "Income",
+  "Work_units_part1": 12,
+  "Work_units_part2": 12
+}

@@ -1,0 +1,103 @@
+{
+  "Subject": "3eEjEbgISX",
+  "Country": "Romania",
+  "Land_income_tier": "high",
+  "Subject_number_tier": 3,
+  "Group_number_for_model": 1,
+  "Group": "high1",
+  "Endowment": 2000,
+  "Model": "UBI",
+  "Active_part": 1,
+  "Constitution": "Unanimity",
+  "Taxation_system": "Income",
+  "Tasks": {
+    "12": [
+      "Unpaid",
+      "Incorrect"
+    ],
+    "13": [
+      "Unpaid",
+      "Correct"
+    ],
+    "14": [
+      "Unpaid",
+      "Correct"
+    ],
+    "15": [
+      "Unpaid",
+      "Incorrect"
+    ],
+    "16": [
+      "Unpaid",
+      "Correct"
+    ],
+    "17": [
+      "Unpaid",
+      "Correct"
+    ],
+    "18": [
+      "Unpaid",
+      "Correct"
+    ],
+    "19": [
+      "Unpaid",
+      "Incorrect"
+    ],
+    "20": [
+      "Unpaid",
+      "Incorrect"
+    ],
+    "21": [
+      "Unpaid",
+      "Correct"
+    ],
+    "22": [
+      "Unpaid",
+      "Incorrect"
+    ],
+    "23": [
+      "Unpaid",
+      "Correct"
+    ]
+  },
+  "Income_part1": 1100,
+  "Income_after_taxation_part1": 3200.0,
+  "Income_part2": 1100,
+  "Income_after_taxation_part2": 3200.0,
+  "Total_income": 6400.0,
+  "System_chosen": "1",
+  "Q1": "1",
+  "Q2": "2",
+  "Q3": "2",
+  "Q4": "7",
+  "Q5": "1",
+  "Q6": [
+    "N/A"
+  ],
+  "Q8": [
+    "3",
+    ""
+  ],
+  "Q9": [
+    "N/A"
+  ],
+  "Q10": "3",
+  "Q11": "1",
+  "Q12": "1",
+  "Q13": "1",
+  "Q14": "1",
+  "Q22": "1",
+  "Q7": "25",
+  "Q15": "1",
+  "Q16": "1",
+  "Q17": "5",
+  "Q18": [
+    "Finance"
+  ],
+  "Q19": "1",
+  "Q20": [
+    "1"
+  ],
+  "Q21": "2",
+  "Comments": ""
+}

@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}Task Choice {% endblock %}
+
+{% block content %}
+
+
+    <p><b>Now you can choose the work to do </b></p>
+    <br>
+Once you make a choice, you can't change it for this particular task. You can switch to another type of work after you complete the task. 
+
+<p>You have <b>{{work_units}} months of work</b> at the moment. You need to engage in {{ work_units }} tasks in total (paid, unpaid or no work).</p>
+
+<br>
+<p><b style="color:blueviolet">Paid work</b> is simple maths tasks (e.g.: 15 * 21 ). You receive income points <b>only</b> for correctly solved tasks.</p>
+<p><b style="color:blueviolet">Unpaid work</b> is playing trivia(quiz) and learning something new. You do not get income points for this type of task.</p>
+<p><b style="color:blueviolet">No work</b> is reading memes (comics). You do not get income points for this type of task.</p>
+<br>
+<p>Your current income: 0</p>
+<p>Your current endowment: {% if part_started == 1 %}
+    yet unknown
+    {% elif part_started == 2 %}
+    {{endowment}}{% endif %}</p>
+
+<br>Good luck! 
+<br><br>Please choose: 
+<br><br>
+
+<form method='POST'>
+    <input class="button is-info" name="Paid" value="Paid work" type="submit">
+    <input class="button is-info" name="Unpaid" value="Unpaid work" type="submit">
+    <input class="button is-info" name="Nowork" value="No work" type="submit">
+</form>
+<!-- 
+    <div class="buttons">
+        <a href="/paid" class="button is-info">Paid work</a>
+    </div>
+
+    <div class="buttons">
+        <a href="/unpaid" class="button is-info">Unpaid work</a>
+    </div>
+
+    <div class="buttons">
+        <a href="/nowork" class="button is-info">No work</a>
+    </div> -->
+
+{% endblock %}

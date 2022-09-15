@@ -1,0 +1,112 @@
+{
+  "Subject": "zrkYJzC2It",
+  "Country": "Hungary",
+  "Land_income_tier": "high",
+  "Subject_number_tier": 1,
+  "Group_number_for_model": 1,
+  "Group": "high1",
+  "Endowment": 1200,
+  "Model": "UBI",
+  "Active_part": 1,
+  "Constitution": "Majority",
+  "Taxation_system": "Income",
+  "Tasks": {
+    "12": [
+      "Nowork"
+    ],
+    "13": [
+      "Nowork"
+    ],
+    "14": [
+      "Paid",
+      "294",
+      "Correct"
+    ],
+    "15": [
+      "Paid",
+      "375",
+      "Correct"
+    ],
+    "16": [
+      "Paid",
+      "366",
+      "Incorrect"
+    ],
+    "17": [
+      "Paid",
+      "276",
+      "Correct"
+    ],
+    "18": [
+      "Paid",
+      "312",
+      "Correct"
+    ],
+    "19": [
+      "Paid",
+      "378",
+      "Correct"
+    ],
+    "20": [
+      "Unpaid",
+      "Correct"
+    ],
+    "21": [
+      "Unpaid",
+      "Correct"
+    ],
+    "22": [
+      "Unpaid",
+      "Correct"
+    ],
+    "23": [
+      "Paid",
+      "371",
+      "Incorrect"
+    ]
+  },
+  "Income_part1": 2900,
+  "Income_after_taxation_part1": 3750.0,
+  "Income_part2": 2100,
+  "Income_after_taxation_part2": 3150.0,
+  "Total_income": 6900.0,
+  "System_chosen": "1",
+  "Q1": "1",
+  "Q2": "2",
+  "Q3": "1",
+  "Q4": "1",
+  "Q5": "1",
+  "Q6": [
+    "1",
+    "3",
+    ""
+  ],
+  "Q7": "3",
+  "Q8": [
+    ""
+  ],
+  "Q9": [
+    ""
+  ],
+  "Q10": "1",
+  "Q11": "3",
+  "Q12": "2",
+  "Q13": "1",
+  "Q14": "2",
+  "Q22": "2",
+  "Q15": "2",
+  "Q16": "2",
+  "Q17": "5",
+  "Q18": [
+    "1",
+    ""
+  ],
+  "Q19": "1",
+  "Q20": [
+    "1",
+    "2",
+    "5"
+  ],
+  "Q21": "3",
+  "Comments": ""
+}

@@ -1,0 +1,91 @@
+{
+  "Active_part": 2,
+  "Answer_given": "378",
+  "Constitution": "Majority",
+  "Correct_part1": 12,
+  "Correct_part2": 11,
+  "Country": "Germany",
+  "Current_task_content": "14 * 27",
+  "Current_task_correct_answer": "378",
+  "Current_task_id": 23,
+  "Endowment": 100,
+  "Finished": "True",
+  "First_time_entering": "True",
+  "Group": "high3",
+  "Group_number_for_model": 3,
+  "Income_after_taxation_part1": 3100.0,
+  "Income_after_taxation_part2": 2900.0,
+  "Income_current": 3050.0,
+  "Income_part1": 3300.0,
+  "Income_part2": 3050.0,
+  "Land_income_tier": "high",
+  "Last_task": "Correct",
+  "Model": "UBIWS",
+  "No_work_part1": 0,
+  "No_work_part2": 0,
+  "Number_in_group": 2,
+  "Paid_work_part1": 12,
+  "Paid_work_part2": 12,
+  "Questionnaire": {
+    "Comments": "",
+    "Q1": "1",
+    "Q10": "3",
+    "Q11": "3",
+    "Q12": "4",
+    "Q13": "2",
+    "Q14": "3",
+    "Q15": "2",
+    "Q16": "2",
+    "Q17": "5",
+    "Q18": "1",
+    "Q19": "7",
+    "Q2": "3",
+    "Q20": "6",
+    "Q21": "2",
+    "Q22": "3",
+    "Q3": "1",
+    "Q4": "2",
+    "Q5": "2",
+    "Q6": "3",
+    "Q7": "4",
+    "Q8": "",
+    "Q9": ""
+  },
+  "Questionnaire_list": {
+    "": "",
+    "Q18": [
+      "1",
+      ""
+    ],
+    "Q20": [
+      "6",
+      "8"
+    ],
+    "Q6": [
+      "3",
+      ""
+    ],
+    "Q8": [
+      ""
+    ],
+    "Q9": [
+      ""
+    ]
+  },
+  "Revote": "False",
+  "Stage": "Taxation",
+  "Subject": "b2T92HRWQq",
+  "Subject_number_overall": 12,
+  "Subject_number_tier": 12,
+  "System_choice": "True",
+  "System_chosen": "1",
+  "Task_type": "Paid",
+  "Taxation_system": "Income",
+  "Total_income": 6000.0,
+  "Unpaid_work_part1": 0,
+  "Unpaid_work_part2": 0,
+  "Voted_for_constitution": "Majority",
+  "Voted_for_taxation": "Income",
+  "Work_units_part1": 12,
+  "Work_units_part2": 12
+}

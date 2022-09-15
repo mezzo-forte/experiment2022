@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Experiment 2022 {% endblock %}
+{% block content %}
+
+
+
+<div class="container is-fluid">
+    <form method='POST'>
+        <p><b>Task {{ current_work_units }}/{{ total_work_units }}</b></p>
+        <br>
+        <p> How much is the following: </p>
+        <br>
+        <div class="field">
+            <label class="label">{{ task_content }} = ?</label>
+      
+        </div>
+        <div class="field has-addons">
+            <div class="field-body">
+                <div class="control">
+                    <input class="input" type="text" placeholder="Answer" name="answerGiven">
+                </div>
+                <br>
+                <div class="control">
+                    <input type="submit" class="button is-primary" value="Submit">
+                </div>
+            </div>
+        </div>
+
+    </form>
+</div>
+
+
+{% endblock %}
